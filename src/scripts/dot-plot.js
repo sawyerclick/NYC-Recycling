@@ -60,7 +60,7 @@ function ready(datapoints) {
       }
     })
     .entries(filtered)
-  console.log(nested)
+  // console.log(nested)
 
   nested.forEach(function(d) {
     d.value.pctRecycled = d.value.totalRecycled / d.value.totalWaste

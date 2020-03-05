@@ -1,9 +1,87 @@
+<script src="https://unpkg.com/css-doodle@0.7.7/css-doodle.min.js"></script>
+
+<style>
+css-doodle {
+  --rule: ( :doodle {
+    position: absolute;
+    width: 100%;
+    @grid: 10 / 100% 100vh;
+    overflow: hidden;
+    /*
+    these are svgs from the internet we could use
+    but they take a sec to load
+    https://image.flaticon.com/icons/svg/1839/1839001.svg
+    https://www.plasticpackagingfacts.org/wp-content/uploads/HDPE.svg
+    */
+  }
+  animation: bounce linear @r(7s, 15s) @r(-1s, -5s) infinite;
+  opacity: @r(0.3, 1);
+  @place-cell: @r(100%) @r(100%);
+  @random(.2) {
+  :before {
+    content: '📦';
+    font-size: @r(15px, 25px);
+    @place-cell: @r(100%) @r(100%);
+    z-index: @p(2, 3);
+    transform: rotate(@r(360deg));
+  }
+  }
+  @random(.2) {
+    :before {
+      content: '🗑️';
+      @place-cell: @r(100%) @r(100%);
+      font-size: @r(15px, 25px);
+      z-index: @p(2, 3);
+      transform: rotate(@r(360deg));
+    }
+  }
+  @random(.2) {
+    :before {
+      content: '🛍️';
+      font-size: @r(15px, 25px);
+      @place-cell: @r(100%) @r(100%);
+      z-index: @p(2, 3);
+      transform: rotate(@r(360deg));
+    }
+  }
+  @random(.2) {
+    :before {
+      content: '📰';
+      @place-cell: @r(100%) @r(100%);
+      font-size: @r(15px, 25px);
+      z-index: @p(2, 3);
+      transform: rotate(@r(360deg));
+    }
+  }
+  @random(.2) {
+    :before {
+      content: '🥤';
+      @place-cell: @r(100%) @r(100%);
+      font-size: @r(15px, 25px);
+      z-index: @p(2, 3);
+      transform: rotate(@r(360deg));
+    }
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(@r(-101vh, -110vh));
+    }
+    100% {
+      transform: translateY(@r(101vh, 110vh));
+    }
+  }
+  );
+}
+</style>
+
+<css-doodle use="var(--rule)"></css-doodle>
 <div class='background-image'>
     <div class="header">
         {{!-- <p class="kicker">{{ kicker }}</p> --}}
         <h1 class="headline" id='headline'>{{ headline }}</h1>
-        {{!-- <h2 class="subhead">{{ subhead }}</h2> --}}
-        <p class="byline">By <a href='https://sawyerclick.github.io' target='_blank'>Sawyer Click</a>, Aseem Shukla and Frida Cai</p>
+        <h2 class="subhead">{{ subhead }} <span class='subhead-blur'> {{ subhead }}</span></h2>
+        <p class="byline">by <a href='https://sawyerclick.github.io' target='_blank'>Sawyer Click</a></p>
         <p class="date">Published {{ published_date }} | <a href='https://github.com/SawyerClick/NYC-Recycling' target='_blank'>Repo</a></p>
     </div>
 </div>

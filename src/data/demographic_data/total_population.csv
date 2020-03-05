@@ -1,0 +1,1295 @@
+"Name","Total Population"
+"Description","Total population."
+"Source Notes","U.S. Census Bureau, American Community Survey 1-Year Estimates, Table B01003 (2005-2018); retrieved from <a href=""https://data.census.gov/"" target=""_blank"">https://data.census.gov/</a><a href=""http://factfinder2.census.gov/"" target=""_blank""></a>.&nbsp;<br />
+For UHF Data: NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2010-2018. Updated August 2019."
+"Notes",""
+
+Location,TimeFrame,DataFormat,Data,Fips
+Battery Park/Tribeca,2005,Number,51150.45963,101
+Battery Park/Tribeca,2006,Number,59445.0087,101
+Battery Park/Tribeca,2007,Number,56375.39151,101
+Battery Park/Tribeca,2008,Number,61639.90009,101
+Battery Park/Tribeca,2009,Number,56591.85182,101
+Battery Park/Tribeca,2010,Number,58534.74464,101
+Battery Park/Tribeca,2011,Number,59159.49109,101
+Battery Park/Tribeca,2012,Number,59742.64163,101
+Battery Park/Tribeca,2013,Number,64506.78766,101
+Battery Park/Tribeca,2014,Number,64575.84496,101
+Battery Park/Tribeca,2015,Number,61934.008,101
+Battery Park/Tribeca,2016,Number,61736.452,101
+Greenwich Village,2005,Number,75508.54037,102
+Greenwich Village,2006,Number,87752.9913,102
+Greenwich Village,2007,Number,83221.60849,102
+Greenwich Village,2008,Number,90993.09991,102
+Greenwich Village,2009,Number,83541.14818,102
+Greenwich Village,2010,Number,86409.25536,102
+Greenwich Village,2011,Number,87331.50891,102
+Greenwich Village,2012,Number,88192.35837,102
+Greenwich Village,2013,Number,95225.21234,102
+Greenwich Village,2014,Number,95327.15504,102
+Greenwich Village,2015,Number,91367.992,102
+Greenwich Village,2016,Number,91076.548,102
+Lower East Side,2005,Number,145556,103
+Lower East Side,2006,Number,178669,103
+Lower East Side,2007,Number,172403,103
+Lower East Side,2008,Number,168794,103
+Lower East Side,2009,Number,162014,103
+Lower East Side,2010,Number,159009,103
+Lower East Side,2011,Number,165774,103
+Lower East Side,2012,Number,167050,103
+Lower East Side,2013,Number,163820,103
+Lower East Side,2014,Number,152453,103
+Lower East Side,2015,Number,164036,103
+Lower East Side,2016,Number,159296,103
+Chelsea/Clinton,2005,Number,88754.39184,104
+Chelsea/Clinton,2006,Number,87597.43577,104
+Chelsea/Clinton,2007,Number,88750.39314,104
+Chelsea/Clinton,2008,Number,96738.45502,104
+Chelsea/Clinton,2009,Number,98282.61816,104
+Chelsea/Clinton,2010,Number,89618.11019,104
+Chelsea/Clinton,2011,Number,95336.24559,104
+Chelsea/Clinton,2012,Number,94014.67654,104
+Chelsea/Clinton,2013,Number,97965.38827,104
+Chelsea/Clinton,2014,Number,99598.85562,104
+Chelsea/Clinton,2015,Number,106297.596,104
+Chelsea/Clinton,2016,Number,93404.502,104
+Midtown Business District,2005,Number,44420.60816,105
+Midtown Business District,2006,Number,43841.56423,105
+Midtown Business District,2007,Number,44418.60686,105
+Midtown Business District,2008,Number,48416.54498,105
+Midtown Business District,2009,Number,49189.38184,105
+Midtown Business District,2010,Number,44852.88981,105
+Midtown Business District,2011,Number,47714.75441,105
+Midtown Business District,2012,Number,47053.32346,105
+Midtown Business District,2013,Number,49030.61173,105
+Midtown Business District,2014,Number,49848.14438,105
+Midtown Business District,2015,Number,53308.404,105
+Midtown Business District,2016,Number,46842.498,105
+Murray Hill/Stuyvesant,2005,Number,146269,106
+Murray Hill/Stuyvesant,2006,Number,138971,106
+Murray Hill/Stuyvesant,2007,Number,144403,106
+Murray Hill/Stuyvesant,2008,Number,149132,106
+Murray Hill/Stuyvesant,2009,Number,155527,106
+Murray Hill/Stuyvesant,2010,Number,145044,106
+Murray Hill/Stuyvesant,2011,Number,147757,106
+Murray Hill/Stuyvesant,2012,Number,141157,106
+Murray Hill/Stuyvesant,2013,Number,147069,106
+Murray Hill/Stuyvesant,2014,Number,143349,106
+Murray Hill/Stuyvesant,2015,Number,140575,106
+Murray Hill/Stuyvesant,2016,Number,141162,106
+Upper West Side,2005,Number,208708,107
+Upper West Side,2006,Number,216812,107
+Upper West Side,2007,Number,214490,107
+Upper West Side,2008,Number,207754,107
+Upper West Side,2009,Number,213137,107
+Upper West Side,2010,Number,199843,107
+Upper West Side,2011,Number,193671,107
+Upper West Side,2012,Number,198568,107
+Upper West Side,2013,Number,179877,107
+Upper West Side,2014,Number,192374,107
+Upper West Side,2015,Number,189827,107
+Upper West Side,2016,Number,189492,107
+Upper East Side,2005,Number,211724,108
+Upper East Side,2006,Number,214459,108
+Upper East Side,2007,Number,218253,108
+Upper East Side,2008,Number,232241,108
+Upper East Side,2009,Number,234133,108
+Upper East Side,2010,Number,218842,108
+Upper East Side,2011,Number,209534,108
+Upper East Side,2012,Number,220861,108
+Upper East Side,2013,Number,217537,108
+Upper East Side,2014,Number,221898,108
+Upper East Side,2015,Number,214571,108
+Upper East Side,2016,Number,219004,108
+Manhattanville,2005,Number,114405,109
+Manhattanville,2006,Number,122736,109
+Manhattanville,2007,Number,130456,109
+Manhattanville,2008,Number,123363,109
+Manhattanville,2009,Number,132851,109
+Manhattanville,2010,Number,138048,109
+Manhattanville,2011,Number,138515,109
+Manhattanville,2012,Number,128093,109
+Manhattanville,2013,Number,130017,109
+Manhattanville,2014,Number,130739,109
+Manhattanville,2015,Number,132630,109
+Manhattanville,2016,Number,125195,109
+Central Harlem,2005,Number,118291,110
+Central Harlem,2006,Number,118143,110
+Central Harlem,2007,Number,124883,110
+Central Harlem,2008,Number,125875,110
+Central Harlem,2009,Number,122336,110
+Central Harlem,2010,Number,126558,110
+Central Harlem,2011,Number,123524,110
+Central Harlem,2012,Number,138256,110
+Central Harlem,2013,Number,148434,110
+Central Harlem,2014,Number,132027,110
+Central Harlem,2015,Number,140209,110
+Central Harlem,2016,Number,143487,110
+East Harlem,2005,Number,109772,111
+East Harlem,2006,Number,134287,111
+East Harlem,2007,Number,121457,111
+East Harlem,2008,Number,126609,111
+East Harlem,2009,Number,113328,111
+East Harlem,2010,Number,114525,111
+East Harlem,2011,Number,123386,111
+East Harlem,2012,Number,122538,111
+East Harlem,2013,Number,114311,111
+East Harlem,2014,Number,129713,111
+East Harlem,2015,Number,122434,111
+East Harlem,2016,Number,134279,111
+Washington Heights,2005,Number,215215,112
+Washington Heights,2006,Number,208867,112
+Washington Heights,2007,Number,221756,112
+Washington Heights,2008,Number,203239,112
+Washington Heights,2009,Number,208123,112
+Washington Heights,2010,Number,205414,112
+Washington Heights,2011,Number,210245,112
+Washington Heights,2012,Number,213564,112
+Washington Heights,2013,Number,218366,112
+Washington Heights,2014,Number,224365,112
+Washington Heights,2015,Number,227328,112
+Washington Heights,2016,Number,238759,112
+Mott Haven,2005,Number,86004.36653,201
+Mott Haven,2006,Number,87777.74431,201
+Mott Haven,2007,Number,95904.34664,201
+Mott Haven,2008,Number,96940.62052,201
+Mott Haven,2009,Number,96740.11298,201
+Mott Haven,2010,Number,99801.83125,201
+Mott Haven,2011,Number,96779.57796,201
+Mott Haven,2012,Number,100795.4575,201
+Mott Haven,2013,Number,103719.68489,201
+Mott Haven,2014,Number,106394.39179,201
+Mott Haven,2015,Number,105159.145,201
+Mott Haven,2016,Number,105915.264,201
+Hunts Point,2005,Number,49109.63347,202
+Hunts Point,2006,Number,50122.25569,202
+Hunts Point,2007,Number,54762.65336,202
+Hunts Point,2008,Number,55354.37948,202
+Hunts Point,2009,Number,55239.88702,202
+Hunts Point,2010,Number,56988.16875,202
+Hunts Point,2011,Number,55262.42205,202
+Hunts Point,2012,Number,57555.5425,202
+Hunts Point,2013,Number,59225.31511,202
+Hunts Point,2014,Number,60752.60821,202
+Hunts Point,2015,Number,59925.855,202
+Hunts Point,2016,Number,60356.736,202
+Morrisania,2005,Number,68816.55766,203
+Morrisania,2006,Number,76787.37594,203
+Morrisania,2007,Number,75598.01557,203
+Morrisania,2008,Number,74816.68751,203
+Morrisania,2009,Number,73348.45613,203
+Morrisania,2010,Number,78598.08049,203
+Morrisania,2011,Number,84369.7318,203
+Morrisania,2012,Number,81620.16154,203
+Morrisania,2013,Number,82558.53801,203
+Morrisania,2014,Number,84271.39308,203
+Morrisania,2015,Number,86174.514,203
+Morrisania,2016,Number,85447.86,203
+Concourse/Highbridge,2005,Number,132813,204
+Concourse/Highbridge,2006,Number,132838,204
+Concourse/Highbridge,2007,Number,139445,204
+Concourse/Highbridge,2008,Number,138648,204
+Concourse/Highbridge,2009,Number,136768,204
+Concourse/Highbridge,2010,Number,146624,204
+Concourse/Highbridge,2011,Number,141627,204
+Concourse/Highbridge,2012,Number,137175,204
+Concourse/Highbridge,2013,Number,138206,204
+Concourse/Highbridge,2014,Number,141467,204
+Concourse/Highbridge,2015,Number,154296,204
+Concourse/Highbridge,2016,Number,151835,204
+University Heights,2005,Number,131447,205
+University Heights,2006,Number,133858,205
+University Heights,2007,Number,129263,205
+University Heights,2008,Number,125990,205
+University Heights,2009,Number,152903,205
+University Heights,2010,Number,135266,205
+University Heights,2011,Number,133352,205
+University Heights,2012,Number,131879,205
+University Heights,2013,Number,136077,205
+University Heights,2014,Number,132850,205
+University Heights,2015,Number,143996,205
+University Heights,2016,Number,135115,205
+East Tremont,2005,Number,71841.44234,206
+East Tremont,2006,Number,80162.62406,206
+East Tremont,2007,Number,78920.98443,206
+East Tremont,2008,Number,78105.3125,206
+East Tremont,2009,Number,76572.54388,206
+East Tremont,2010,Number,82052.91951,206
+East Tremont,2011,Number,88078.2682,206
+East Tremont,2012,Number,85207.83846,206
+East Tremont,2013,Number,86187.46199,206
+East Tremont,2014,Number,87975.60692,206
+East Tremont,2015,Number,90051.486,206
+East Tremont,2016,Number,89292.14,206
+Bedford Park,2005,Number,131535,207
+Bedford Park,2006,Number,124968,207
+Bedford Park,2007,Number,121634,207
+Bedford Park,2008,Number,122723,207
+Bedford Park,2009,Number,130290,207
+Bedford Park,2010,Number,124826,207
+Bedford Park,2011,Number,117800,207
+Bedford Park,2012,Number,128117,207
+Bedford Park,2013,Number,127336,207
+Bedford Park,2014,Number,135893,207
+Bedford Park,2015,Number,129884,207
+Bedford Park,2016,Number,138899,207
+Riverdale,2005,Number,100157,208
+Riverdale,2006,Number,111199,208
+Riverdale,2007,Number,113170,208
+Riverdale,2008,Number,123077,208
+Riverdale,2009,Number,105102,208
+Riverdale,2010,Number,109153,208
+Riverdale,2011,Number,103785,208
+Riverdale,2012,Number,104603,208
+Riverdale,2013,Number,114884,208
+Riverdale,2014,Number,106737,208
+Riverdale,2015,Number,112505,208
+Riverdale,2016,Number,108865,208
+Unionport/Soundview,2005,Number,178944,209
+Unionport/Soundview,2006,Number,180396,209
+Unionport/Soundview,2007,Number,166492,209
+Unionport/Soundview,2008,Number,183514,209
+Unionport/Soundview,2009,Number,182737,209
+Unionport/Soundview,2010,Number,182977,209
+Unionport/Soundview,2011,Number,182740,209
+Unionport/Soundview,2012,Number,179541,209
+Unionport/Soundview,2013,Number,191175,209
+Unionport/Soundview,2014,Number,190126,209
+Unionport/Soundview,2015,Number,178301,209
+Unionport/Soundview,2016,Number,193240,209
+Throgs Neck,2005,Number,98174,210
+Throgs Neck,2006,Number,114081,210
+Throgs Neck,2007,Number,123302,210
+Throgs Neck,2008,Number,116692,210
+Throgs Neck,2009,Number,114885,210
+Throgs Neck,2010,Number,109482,210
+Throgs Neck,2011,Number,122886,210
+Throgs Neck,2012,Number,119950,210
+Throgs Neck,2013,Number,122671,210
+Throgs Neck,2014,Number,121209,210
+Throgs Neck,2015,Number,116042,210
+Throgs Neck,2016,Number,111431,210
+Pelham Parkway,2005,Number,119613,211
+Pelham Parkway,2006,Number,121465,211
+Pelham Parkway,2007,Number,126978,211
+Pelham Parkway,2008,Number,130517,211
+Pelham Parkway,2009,Number,126715,211
+Pelham Parkway,2010,Number,123655,211
+Pelham Parkway,2011,Number,121836,211
+Pelham Parkway,2012,Number,136275,211
+Pelham Parkway,2013,Number,121307,211
+Pelham Parkway,2014,Number,135839,211
+Pelham Parkway,2015,Number,133573,211
+Pelham Parkway,2016,Number,124632,211
+Williamsbridge,2005,Number,141185,212
+Williamsbridge,2006,Number,147818,212
+Williamsbridge,2007,Number,148189,212
+Williamsbridge,2008,Number,145525,212
+Williamsbridge,2009,Number,145986,212
+Williamsbridge,2010,Number,137233,212
+Williamsbridge,2011,Number,143486,212
+Williamsbridge,2012,Number,145754,212
+Williamsbridge,2013,Number,135386,212
+Williamsbridge,2014,Number,134644,212
+Williamsbridge,2015,Number,145536,212
+Williamsbridge,2016,Number,150691,212
+Williamsburg/Greenpoint,2005,Number,132287,301
+Williamsburg/Greenpoint,2006,Number,141513,301
+Williamsburg/Greenpoint,2007,Number,146456,301
+Williamsburg/Greenpoint,2008,Number,149665,301
+Williamsburg/Greenpoint,2009,Number,139263,301
+Williamsburg/Greenpoint,2010,Number,146253,301
+Williamsburg/Greenpoint,2011,Number,144584,301
+Williamsburg/Greenpoint,2012,Number,147300,301
+Williamsburg/Greenpoint,2013,Number,156086,301
+Williamsburg/Greenpoint,2014,Number,154713,301
+Williamsburg/Greenpoint,2015,Number,167820,301
+Williamsburg/Greenpoint,2016,Number,166361,301
+Fort Greene/Brooklyn Hts,2005,Number,109811,302
+Fort Greene/Brooklyn Hts,2006,Number,111796,302
+Fort Greene/Brooklyn Hts,2007,Number,116753,302
+Fort Greene/Brooklyn Hts,2008,Number,116528,302
+Fort Greene/Brooklyn Hts,2009,Number,121297,302
+Fort Greene/Brooklyn Hts,2010,Number,125468,302
+Fort Greene/Brooklyn Hts,2011,Number,118910,302
+Fort Greene/Brooklyn Hts,2012,Number,130102,302
+Fort Greene/Brooklyn Hts,2013,Number,130954,302
+Fort Greene/Brooklyn Hts,2014,Number,139070,302
+Fort Greene/Brooklyn Hts,2015,Number,134656,302
+Fort Greene/Brooklyn Hts,2016,Number,143328,302
+Bedford Stuyvesant,2005,Number,135559,303
+Bedford Stuyvesant,2006,Number,132087,303
+Bedford Stuyvesant,2007,Number,125699,303
+Bedford Stuyvesant,2008,Number,141064,303
+Bedford Stuyvesant,2009,Number,132514,303
+Bedford Stuyvesant,2010,Number,133302,303
+Bedford Stuyvesant,2011,Number,132524,303
+Bedford Stuyvesant,2012,Number,136462,303
+Bedford Stuyvesant,2013,Number,143629,303
+Bedford Stuyvesant,2014,Number,133235,303
+Bedford Stuyvesant,2015,Number,150857,303
+Bedford Stuyvesant,2016,Number,148237,303
+Bushwick,2005,Number,115583,304
+Bushwick,2006,Number,123871,304
+Bushwick,2007,Number,129980,304
+Bushwick,2008,Number,127496,304
+Bushwick,2009,Number,134869,304
+Bushwick,2010,Number,140437,304
+Bushwick,2011,Number,138763,304
+Bushwick,2012,Number,143782,304
+Bushwick,2013,Number,145795,304
+Bushwick,2014,Number,137368,304
+Bushwick,2015,Number,122010,304
+Bushwick,2016,Number,139306,304
+East New York,2005,Number,143543,305
+East New York,2006,Number,161064,305
+East New York,2007,Number,158711,305
+East New York,2008,Number,156855,305
+East New York,2009,Number,163813,305
+East New York,2010,Number,146614,305
+East New York,2011,Number,146530,305
+East New York,2012,Number,157832,305
+East New York,2013,Number,158183,305
+East New York,2014,Number,155863,305
+East New York,2015,Number,158756,305
+East New York,2016,Number,160769,305
+Park Slope,2005,Number,112313,306
+Park Slope,2006,Number,110032,306
+Park Slope,2007,Number,108989,306
+Park Slope,2008,Number,118144,306
+Park Slope,2009,Number,118886,306
+Park Slope,2010,Number,119558,306
+Park Slope,2011,Number,112066,306
+Park Slope,2012,Number,109204,306
+Park Slope,2013,Number,116339,306
+Park Slope,2014,Number,125062,306
+Park Slope,2015,Number,117037,306
+Park Slope,2016,Number,114007,306
+Sunset Park,2005,Number,139547,307
+Sunset Park,2006,Number,153066,307
+Sunset Park,2007,Number,146760,307
+Sunset Park,2008,Number,147678,307
+Sunset Park,2009,Number,158333,307
+Sunset Park,2010,Number,141190,307
+Sunset Park,2011,Number,152038,307
+Sunset Park,2012,Number,151902,307
+Sunset Park,2013,Number,154422,307
+Sunset Park,2014,Number,152685,307
+Sunset Park,2015,Number,149773,307
+Sunset Park,2016,Number,149399,307
+Crown Heights North,2005,Number,128655,308
+Crown Heights North,2006,Number,127013,308
+Crown Heights North,2007,Number,129870,308
+Crown Heights North,2008,Number,122392,308
+Crown Heights North,2009,Number,125931,308
+Crown Heights North,2010,Number,119323,308
+Crown Heights North,2011,Number,126360,308
+Crown Heights North,2012,Number,120243,308
+Crown Heights North,2013,Number,127050,308
+Crown Heights North,2014,Number,126747,308
+Crown Heights North,2015,Number,131303,308
+Crown Heights North,2016,Number,134788,308
+Crown Heights South,2005,Number,108000,309
+Crown Heights South,2006,Number,110333,309
+Crown Heights South,2007,Number,112052,309
+Crown Heights South,2008,Number,111833,309
+Crown Heights South,2009,Number,109170,309
+Crown Heights South,2010,Number,107419,309
+Crown Heights South,2011,Number,113947,309
+Crown Heights South,2012,Number,113485,309
+Crown Heights South,2013,Number,103822,309
+Crown Heights South,2014,Number,109337,309
+Crown Heights South,2015,Number,115092,309
+Crown Heights South,2016,Number,110382,309
+Bay Ridge,2005,Number,124339,310
+Bay Ridge,2006,Number,123447,310
+Bay Ridge,2007,Number,126730,310
+Bay Ridge,2008,Number,121390,310
+Bay Ridge,2009,Number,128811,310
+Bay Ridge,2010,Number,137599,310
+Bay Ridge,2011,Number,132931,310
+Bay Ridge,2012,Number,127481,310
+Bay Ridge,2013,Number,127683,310
+Bay Ridge,2014,Number,128545,310
+Bay Ridge,2015,Number,122418,310
+Bay Ridge,2016,Number,118804,310
+Bensonhurst,2005,Number,181857,311
+Bensonhurst,2006,Number,174593,311
+Bensonhurst,2007,Number,184258,311
+Bensonhurst,2008,Number,183083,311
+Bensonhurst,2009,Number,163384,311
+Bensonhurst,2010,Number,164506,311
+Bensonhurst,2011,Number,181227,311
+Bensonhurst,2012,Number,189420,311
+Bensonhurst,2013,Number,184907,311
+Bensonhurst,2014,Number,187637,311
+Bensonhurst,2015,Number,187861,311
+Bensonhurst,2016,Number,189426,311
+Borough Park,2005,Number,154525,312
+Borough Park,2006,Number,155509,312
+Borough Park,2007,Number,176198,312
+Borough Park,2008,Number,170292,312
+Borough Park,2009,Number,163645,312
+Borough Park,2010,Number,168915,312
+Borough Park,2011,Number,162087,312
+Borough Park,2012,Number,162352,312
+Borough Park,2013,Number,161036,312
+Borough Park,2014,Number,170011,312
+Borough Park,2015,Number,161856,312
+Borough Park,2016,Number,151250,312
+Coney Island,2005,Number,109576,313
+Coney Island,2006,Number,103687,313
+Coney Island,2007,Number,108484,313
+Coney Island,2008,Number,104974,313
+Coney Island,2009,Number,111063,313
+Coney Island,2010,Number,103112,313
+Coney Island,2011,Number,102351,313
+Coney Island,2012,Number,100695,313
+Coney Island,2013,Number,106249,313
+Coney Island,2014,Number,110727,313
+Coney Island,2015,Number,122781,313
+Coney Island,2016,Number,116847,313
+Flatbush/Midwood,2005,Number,156685,314
+Flatbush/Midwood,2006,Number,163099,314
+Flatbush/Midwood,2007,Number,160783,314
+Flatbush/Midwood,2008,Number,172592,314
+Flatbush/Midwood,2009,Number,163298,314
+Flatbush/Midwood,2010,Number,162715,314
+Flatbush/Midwood,2011,Number,162760,314
+Flatbush/Midwood,2012,Number,148198,314
+Flatbush/Midwood,2013,Number,157167,314
+Flatbush/Midwood,2014,Number,180723,314
+Flatbush/Midwood,2015,Number,163459,314
+Flatbush/Midwood,2016,Number,163620,314
+Sheepshead Bay,2005,Number,151192,315
+Sheepshead Bay,2006,Number,148784,315
+Sheepshead Bay,2007,Number,137489,315
+Sheepshead Bay,2008,Number,145146,315
+Sheepshead Bay,2009,Number,149806,315
+Sheepshead Bay,2010,Number,133282,315
+Sheepshead Bay,2011,Number,143196,315
+Sheepshead Bay,2012,Number,153182,315
+Sheepshead Bay,2013,Number,156346,315
+Sheepshead Bay,2014,Number,137815,315
+Sheepshead Bay,2015,Number,147318,315
+Sheepshead Bay,2016,Number,159017,315
+Brownsville,2005,Number,111136,316
+Brownsville,2006,Number,116936,316
+Brownsville,2007,Number,120802,316
+Brownsville,2008,Number,113502,316
+Brownsville,2009,Number,118392,316
+Brownsville,2010,Number,115433,316
+Brownsville,2011,Number,126002,316
+Brownsville,2012,Number,128864,316
+Brownsville,2013,Number,128100,316
+Brownsville,2014,Number,123772,316
+Brownsville,2015,Number,127468,316
+Brownsville,2016,Number,109658,316
+East Flatbush,2005,Number,143392,317
+East Flatbush,2006,Number,147390,317
+East Flatbush,2007,Number,135649,317
+East Flatbush,2008,Number,147017,317
+East Flatbush,2009,Number,151181,317
+East Flatbush,2010,Number,140285,317
+East Flatbush,2011,Number,131274,317
+East Flatbush,2012,Number,140973,317
+East Flatbush,2013,Number,132564,317
+East Flatbush,2014,Number,137526,317
+East Flatbush,2015,Number,143028,317
+East Flatbush,2016,Number,145860,317
+Canarsie,2005,Number,188016,318
+Canarsie,2006,Number,204600,318
+Canarsie,2007,Number,202387,318
+Canarsie,2008,Number,206947,318
+Canarsie,2009,Number,213442,318
+Canarsie,2010,Number,202929,318
+Canarsie,2011,Number,205095,318
+Canarsie,2012,Number,204158,318
+Canarsie,2013,Number,201817,318
+Canarsie,2014,Number,210957,318
+Canarsie,2015,Number,213242,318
+Canarsie,2016,Number,208091,318
+Astoria,2005,Number,196854,401
+Astoria,2006,Number,190247,401
+Astoria,2007,Number,175303,401
+Astoria,2008,Number,178480,401
+Astoria,2009,Number,176394,401
+Astoria,2010,Number,166666,401
+Astoria,2011,Number,170174,401
+Astoria,2012,Number,165035,401
+Astoria,2013,Number,178585,401
+Astoria,2014,Number,182860,401
+Astoria,2015,Number,175460,401
+Astoria,2016,Number,171988,401
+Sunnyside/Woodside,2005,Number,138863,402
+Sunnyside/Woodside,2006,Number,128673,402
+Sunnyside/Woodside,2007,Number,139138,402
+Sunnyside/Woodside,2008,Number,132863,402
+Sunnyside/Woodside,2009,Number,131011,402
+Sunnyside/Woodside,2010,Number,125229,402
+Sunnyside/Woodside,2011,Number,130059,402
+Sunnyside/Woodside,2012,Number,140399,402
+Sunnyside/Woodside,2013,Number,133375,402
+Sunnyside/Woodside,2014,Number,150100,402
+Sunnyside/Woodside,2015,Number,144899,402
+Sunnyside/Woodside,2016,Number,135767,402
+Jackson Heights,2005,Number,181014,403
+Jackson Heights,2006,Number,176387,403
+Jackson Heights,2007,Number,182141,403
+Jackson Heights,2008,Number,190173,403
+Jackson Heights,2009,Number,187902,403
+Jackson Heights,2010,Number,170161,403
+Jackson Heights,2011,Number,185667,403
+Jackson Heights,2012,Number,179741,403
+Jackson Heights,2013,Number,192889,403
+Jackson Heights,2014,Number,182354,403
+Jackson Heights,2015,Number,186415,403
+Jackson Heights,2016,Number,166144,403
+Elmhurst/Corona,2005,Number,139422,404
+Elmhurst/Corona,2006,Number,138593,404
+Elmhurst/Corona,2007,Number,140182,404
+Elmhurst/Corona,2008,Number,143406,404
+Elmhurst/Corona,2009,Number,147604,404
+Elmhurst/Corona,2010,Number,136517,404
+Elmhurst/Corona,2011,Number,137879,404
+Elmhurst/Corona,2012,Number,140591,404
+Elmhurst/Corona,2013,Number,150519,404
+Elmhurst/Corona,2014,Number,154740,404
+Elmhurst/Corona,2015,Number,129606,404
+Elmhurst/Corona,2016,Number,141167,404
+Ridgewood/Glendale,2005,Number,169055,405
+Ridgewood/Glendale,2006,Number,179768,405
+Ridgewood/Glendale,2007,Number,187195,405
+Ridgewood/Glendale,2008,Number,167834,405
+Ridgewood/Glendale,2009,Number,187972,405
+Ridgewood/Glendale,2010,Number,180932,405
+Ridgewood/Glendale,2011,Number,173357,405
+Ridgewood/Glendale,2012,Number,164301,405
+Ridgewood/Glendale,2013,Number,163960,405
+Ridgewood/Glendale,2014,Number,168488,405
+Ridgewood/Glendale,2015,Number,186458,405
+Ridgewood/Glendale,2016,Number,192600,405
+Rego Park/Forest Hills,2005,Number,116490,406
+Rego Park/Forest Hills,2006,Number,116418,406
+Rego Park/Forest Hills,2007,Number,117931,406
+Rego Park/Forest Hills,2008,Number,116831,406
+Rego Park/Forest Hills,2009,Number,114945,406
+Rego Park/Forest Hills,2010,Number,114462,406
+Rego Park/Forest Hills,2011,Number,111930,406
+Rego Park/Forest Hills,2012,Number,115976,406
+Rego Park/Forest Hills,2013,Number,116101,406
+Rego Park/Forest Hills,2014,Number,107893,406
+Rego Park/Forest Hills,2015,Number,127938,406
+Rego Park/Forest Hills,2016,Number,111730,406
+Flushing,2005,Number,241947,407
+Flushing,2006,Number,246542,407
+Flushing,2007,Number,234382,407
+Flushing,2008,Number,254571,407
+Flushing,2009,Number,264586,407
+Flushing,2010,Number,257327,407
+Flushing,2011,Number,247116,407
+Flushing,2012,Number,250135,407
+Flushing,2013,Number,250391,407
+Flushing,2014,Number,256742,407
+Flushing,2015,Number,247398,407
+Flushing,2016,Number,245864,407
+Fresh Meadows/Briarwood,2005,Number,137827,408
+Fresh Meadows/Briarwood,2006,Number,147374,408
+Fresh Meadows/Briarwood,2007,Number,151246,408
+Fresh Meadows/Briarwood,2008,Number,143686,408
+Fresh Meadows/Briarwood,2009,Number,161047,408
+Fresh Meadows/Briarwood,2010,Number,138004,408
+Fresh Meadows/Briarwood,2011,Number,144431,408
+Fresh Meadows/Briarwood,2012,Number,157855,408
+Fresh Meadows/Briarwood,2013,Number,155659,408
+Fresh Meadows/Briarwood,2014,Number,159330,408
+Fresh Meadows/Briarwood,2015,Number,161612,408
+Fresh Meadows/Briarwood,2016,Number,166115,408
+Woodhaven,2005,Number,132751,409
+Woodhaven,2006,Number,138679,409
+Woodhaven,2007,Number,146114,409
+Woodhaven,2008,Number,155865,409
+Woodhaven,2009,Number,146340,409
+Woodhaven,2010,Number,135589,409
+Woodhaven,2011,Number,155315,409
+Woodhaven,2012,Number,148177,409
+Woodhaven,2013,Number,158754,409
+Woodhaven,2014,Number,151202,409
+Woodhaven,2015,Number,158478,409
+Woodhaven,2016,Number,164094,409
+Howard Beach,2005,Number,124086,410
+Howard Beach,2006,Number,124623,410
+Howard Beach,2007,Number,138052,410
+Howard Beach,2008,Number,140123,410
+Howard Beach,2009,Number,125305,410
+Howard Beach,2010,Number,135257,410
+Howard Beach,2011,Number,132853,410
+Howard Beach,2012,Number,133178,410
+Howard Beach,2013,Number,121383,410
+Howard Beach,2014,Number,134827,410
+Howard Beach,2015,Number,135849,410
+Howard Beach,2016,Number,135422,410
+Bayside,2005,Number,111573,411
+Bayside,2006,Number,117784,411
+Bayside,2007,Number,123412,411
+Bayside,2008,Number,124989,411
+Bayside,2009,Number,123621,411
+Bayside,2010,Number,120428,411
+Bayside,2011,Number,118669,411
+Bayside,2012,Number,123146,411
+Bayside,2013,Number,118250,411
+Bayside,2014,Number,120996,411
+Bayside,2015,Number,113563,411
+Bayside,2016,Number,117381,411
+Jamaica/St. Albans,2005,Number,224774,412
+Jamaica/St. Albans,2006,Number,216115,412
+Jamaica/St. Albans,2007,Number,218120,412
+Jamaica/St. Albans,2008,Number,222807,412
+Jamaica/St. Albans,2009,Number,220918,412
+Jamaica/St. Albans,2010,Number,222074,412
+Jamaica/St. Albans,2011,Number,231813,412
+Jamaica/St. Albans,2012,Number,228128,412
+Jamaica/St. Albans,2013,Number,246150,412
+Jamaica/St. Albans,2014,Number,251002,412
+Jamaica/St. Albans,2015,Number,246946,412
+Jamaica/St. Albans,2016,Number,243300,412
+Queens Village,2005,Number,188995,413
+Queens Village,2006,Number,213704,413
+Queens Village,2007,Number,202070,413
+Queens Village,2008,Number,203425,413
+Queens Village,2009,Number,201542,413
+Queens Village,2010,Number,207164,413
+Queens Village,2011,Number,200640,413
+Queens Village,2012,Number,197751,413
+Queens Village,2013,Number,197890,413
+Queens Village,2014,Number,193102,413
+Queens Village,2015,Number,203013,413
+Queens Village,2016,Number,214163,413
+The Rockaways,2005,Number,111688,414
+The Rockaways,2006,Number,120268,414
+The Rockaways,2007,Number,115052,414
+The Rockaways,2008,Number,117954,414
+The Rockaways,2009,Number,117525,414
+The Rockaways,2010,Number,124031,414
+The Rockaways,2011,Number,107945,414
+The Rockaways,2012,Number,128358,414
+The Rockaways,2013,Number,112269,414
+The Rockaways,2014,Number,107944,414
+The Rockaways,2015,Number,121595,414
+The Rockaways,2016,Number,127381,414
+St. George,2005,Number,168545,501
+St. George,2006,Number,168395,501
+St. George,2007,Number,182833,501
+St. George,2008,Number,179225,501
+St. George,2009,Number,179381,501
+St. George,2010,Number,172052,501
+St. George,2011,Number,173412,501
+St. George,2012,Number,175699,501
+St. George,2013,Number,177182,501
+St. George,2014,Number,176338,501
+St. George,2015,Number,170280,501
+St. George,2016,Number,174943,501
+South Beach,2005,Number,131695,502
+South Beach,2006,Number,133736,502
+South Beach,2007,Number,134188,502
+South Beach,2008,Number,142188,502
+South Beach,2009,Number,150278,502
+South Beach,2010,Number,132502,502
+South Beach,2011,Number,125257,502
+South Beach,2012,Number,131923,502
+South Beach,2013,Number,136769,502
+South Beach,2014,Number,126200,502
+South Beach,2015,Number,136638,502
+South Beach,2016,Number,142815,502
+Tottenville,2005,Number,155104,503
+Tottenville,2006,Number,175246,503
+Tottenville,2007,Number,164592,503
+Tottenville,2008,Number,165994,503
+Tottenville,2009,Number,162071,503
+Tottenville,2010,Number,164809,503
+Tottenville,2011,Number,171798,503
+Tottenville,2012,Number,163106,503
+Tottenville,2013,Number,158670,503
+Tottenville,2014,Number,170741,503
+Tottenville,2015,Number,167640,503
+Tottenville,2016,Number,158257,503
+Bronx,2005,Number,1309640,36005
+Bronx,2006,Number,1361473,36005
+Bronx,2007,Number,1373659,36005
+Bronx,2008,Number,1391903,36005
+Bronx,2009,Number,1397287,36005
+Bronx,2010,Number,1386657,36005
+Bronx,2011,Number,1392002,36005
+Bronx,2012,Number,1408473,36005
+Bronx,2013,Number,1418733,36005
+Bronx,2014,Number,1438159,36005
+Bronx,2015,Number,1455444,36005
+Bronx,2016,Number,1455720,36005
+Brooklyn,2005,Number,2446016,36047
+Brooklyn,2006,Number,2508820,36047
+Brooklyn,2007,Number,2528050,36047
+Brooklyn,2008,Number,2556598,36047
+Brooklyn,2009,Number,2567098,36047
+Brooklyn,2010,Number,2508340,36047
+Brooklyn,2011,Number,2532645,36047
+Brooklyn,2012,Number,2565635,36047
+Brooklyn,2013,Number,2592149,36047
+Brooklyn,2014,Number,2621793,36047
+Brooklyn,2015,Number,2636735,36047
+Brooklyn,2016,Number,2629150,36047
+Manhattan,2005,Number,1529774,36061
+Manhattan,2006,Number,1611581,36061
+Manhattan,2007,Number,1620867,36061
+Manhattan,2008,Number,1634795,36061
+Manhattan,2009,Number,1629054,36061
+Manhattan,2010,Number,1586698,36061
+Manhattan,2011,Number,1601948,36061
+Manhattan,2012,Number,1619090,36061
+Manhattan,2013,Number,1626159,36061
+Manhattan,2014,Number,1636268,36061
+Manhattan,2015,Number,1644518,36061
+Manhattan,2016,Number,1643734,36061
+Queens,2005,Number,2215339,36081
+Queens,2006,Number,2255175,36081
+Queens,2007,Number,2270338,36081
+Queens,2008,Number,2293007,36081
+Queens,2009,Number,2306712,36081
+Queens,2010,Number,2233841,36081
+Queens,2011,Number,2247848,36081
+Queens,2012,Number,2272771,36081
+Queens,2013,Number,2296175,36081
+Queens,2014,Number,2321580,36081
+Queens,2015,Number,2339150,36081
+Queens,2016,Number,2333054,36081
+Staten Island,2005,Number,455344,36085
+Staten Island,2006,Number,477377,36085
+Staten Island,2007,Number,481613,36085
+Staten Island,2008,Number,487407,36085
+Staten Island,2009,Number,491730,36085
+Staten Island,2010,Number,469363,36085
+Staten Island,2011,Number,470467,36085
+Staten Island,2012,Number,470728,36085
+Staten Island,2013,Number,472621,36085
+Staten Island,2014,Number,473279,36085
+Staten Island,2015,Number,474558,36085
+Staten Island,2016,Number,476015,36085
+New York City,2005,Number,7956113,3651000
+New York City,2006,Number,8214426,3651000
+New York City,2007,Number,8274527,3651000
+New York City,2008,Number,8363710,3651000
+New York City,2009,Number,8391881,3651000
+New York City,2010,Number,8184899,3651000
+New York City,2011,Number,8244910,3651000
+New York City,2012,Number,8336697,3651000
+New York City,2013,Number,8405837,3651000
+New York City,2014,Number,8491079,3651000
+New York City,2015,Number,8550405,3651000
+New York City,2016,Number,8537673,3651000
+Battery Park/Tribeca,2017,Number,60165.46615,101
+Greenwich Village,2017,Number,88816.53385,102
+Lower East Side,2017,Number,160490,103
+Chelsea/Clinton,2017,Number,101603.53526,104
+Midtown Business District,2017,Number,50851.46474,105
+Murray Hill/Stuyvesant,2017,Number,149674,106
+Upper West Side,2017,Number,207134,107
+Upper East Side,2017,Number,214219,108
+Manhattanville,2017,Number,136017,109
+Central Harlem,2017,Number,147442,110
+East Harlem,2017,Number,128316,111
+Washington Heights,2017,Number,219998,112
+Mott Haven,2017,Number,99526.21296,201
+Hunts Point,2017,Number,56830.78704,202
+Morrisania,2017,Number,92015.20058,203
+Concourse/Highbridge,2017,Number,149710,204
+University Heights,2017,Number,148339,205
+East Tremont,2017,Number,96059.79942,206
+Bedford Park,2017,Number,143540,207
+Riverdale,2017,Number,113242,208
+Unionport/Soundview,2017,Number,187975,209
+Throgs Neck,2017,Number,113395,210
+Pelham Parkway,2017,Number,120116,211
+Williamsbridge,2017,Number,150411,212
+Williamsburg/Greenpoint,2017,Number,152002,301
+Fort Greene/Brooklyn Hts,2017,Number,135444,302
+Bedford Stuyvesant,2017,Number,142027,303
+Bushwick,2017,Number,140474,304
+East New York,2017,Number,176471,305
+Park Slope,2017,Number,116209,306
+Sunset Park,2017,Number,144332,307
+Crown Heights North,2017,Number,141725,308
+Crown Heights South,2017,Number,113212,309
+Bay Ridge,2017,Number,123488,310
+Bensonhurst,2017,Number,205850,311
+Borough Park,2017,Number,146556,312
+Coney Island,2017,Number,122009,313
+Flatbush/Midwood,2017,Number,150707,314
+Sheepshead Bay,2017,Number,171030,315
+Brownsville,2017,Number,111511,316
+East Flatbush,2017,Number,140087,317
+Canarsie,2017,Number,215637,318
+Astoria,2017,Number,164321,401
+Sunnyside/Woodside,2017,Number,133822,402
+Jackson Heights,2017,Number,170222,403
+Elmhurst/Corona,2017,Number,146301,404
+Ridgewood/Glendale,2017,Number,199043,405
+Rego Park/Forest Hills,2017,Number,118922,406
+Flushing,2017,Number,260282,407
+Fresh Meadows/Briarwood,2017,Number,164291,408
+Woodhaven,2017,Number,152283,409
+Howard Beach,2017,Number,139323,410
+Bayside,2017,Number,118670,411
+Jamaica/St. Albans,2017,Number,249331,412
+Queens Village,2017,Number,208786,413
+The Rockaways,2017,Number,133051,414
+St. George,2017,Number,176632,501
+South Beach,2017,Number,143766,502
+Tottenville,2017,Number,159060,503
+Bronx,2017,Number,1471160,36005
+Brooklyn,2017,Number,2648771,36047
+Manhattan,2017,Number,1664727,36061
+Queens,2017,Number,2358582,36081
+Staten Island,2017,Number,479458,36085
+New York City,2017,Number,8622698,3651000
+Battery Park/Tribeca,2018,Number,61375.7862,101
+Greenwich Village,2018,Number,90603.2138,102
+Lower East Side,2018,Number,155408,103
+Chelsea/Clinton,2018,Number,110265.37743,104
+Midtown Business District,2018,Number,55186.62257,105
+Murray Hill/Stuyvesant,2018,Number,143582,106
+Upper West Side,2018,Number,191222,107
+Upper East Side,2018,Number,204469,108
+Manhattanville,2018,Number,145440,109
+Central Harlem,2018,Number,146309,110
+East Harlem,2018,Number,110800,111
+Washington Heights,2018,Number,214040,112
+Mott Haven,2018,Number,104393.1356,201
+Hunts Point,2018,Number,59609.8644,202
+Morrisania,2018,Number,85841.38792,203
+Concourse/Highbridge,2018,Number,136636,204
+University Heights,2018,Number,139732,205
+East Tremont,2018,Number,89614.61208,206
+Bedford Park,2018,Number,133784,207
+Riverdale,2018,Number,119846,208
+Unionport/Soundview,2018,Number,182874,209
+Throgs Neck,2018,Number,119071,210
+Pelham Parkway,2018,Number,124931,211
+Williamsbridge,2018,Number,135799,212
+Williamsburg/Greenpoint,2018,Number,162381,301
+Fort Greene/Brooklyn Hts,2018,Number,145843,302
+Bedford Stuyvesant,2018,Number,155117,303
+Bushwick,2018,Number,121188,304
+East New York,2018,Number,171170,305
+Park Slope,2018,Number,116351,306
+Sunset Park,2018,Number,132875,307
+Crown Heights North,2018,Number,136367,308
+Crown Heights South,2018,Number,111448,309
+Bay Ridge,2018,Number,125200,310
+Bensonhurst,2018,Number,186850,311
+Borough Park,2018,Number,138570,312
+Coney Island,2018,Number,113339,313
+Flatbush/Midwood,2018,Number,154833,314
+Sheepshead Bay,2018,Number,158213,315
+Brownsville,2018,Number,122128,316
+East Flatbush,2018,Number,135931,317
+Canarsie,2018,Number,195026,318
+Astoria,2018,Number,160871,401
+Sunnyside/Woodside,2018,Number,137490,402
+Jackson Heights,2018,Number,181787,403
+Elmhurst/Corona,2018,Number,150131,404
+Ridgewood/Glendale,2018,Number,186441,405
+Rego Park/Forest Hills,2018,Number,118105,406
+Flushing,2018,Number,239000,407
+Fresh Meadows/Briarwood,2018,Number,164615,408
+Woodhaven,2018,Number,139079,409
+Howard Beach,2018,Number,128937,410
+Bayside,2018,Number,115744,411
+Jamaica/St. Albans,2018,Number,241539,412
+Queens Village,2018,Number,187761,413
+The Rockaways,2018,Number,127676,414
+St. George,2018,Number,174606,501
+South Beach,2018,Number,137973,502
+Tottenville,2018,Number,163600,503
+Bronx,2018,Number,1432132,36005
+Brooklyn,2018,Number,2582830,36047
+Manhattan,2018,Number,1628701,36061
+Queens,2018,Number,2278906,36081
+Staten Island,2018,Number,476179,36085
+New York City,2018,Number,8398748,3651000
+Kingsbridge - Riverdale,2010,Number,92916.61363,uhf101
+Northeast Bronx,2010,Number,198154.50734,uhf102
+Fordham - Bronx Park,2010,Number,250675.54979,uhf103
+Pelham - Throgs Neck,2010,Number,295873.70454,uhf104
+Crotona - Tremont,2010,Number,206303.18347,uhf105
+High Bridge - Morrisania,2010,Number,208594.10461,uhf106
+Hunts Point - Mott Haven,2010,Number,134139.33663,uhf107
+Greenpoint,2010,Number,132398.36463,uhf201
+Downtown  - Heights - Slope,2010,Number,239344.35526,uhf202
+Bedford Stuyvesant - Crown Heights,2010,Number,332889.13869,uhf203
+East New York,2010,Number,192569.43482,uhf204
+Sunset Park,2010,Number,121507.0297,uhf205
+Borough Park,2010,Number,326133.83088,uhf206
+East Flatbush - Flatbush,2010,Number,301805.66418,uhf207
+Canarsie - Flatlands,2010,Number,210595.25662,uhf208
+Bensonhurst - Bay Ridge,2010,Number,195887.56796,uhf209
+Coney Island - Sheepshead Bay,2010,Number,283017.24827,uhf210
+Williamsburg - Bushwick,2010,Number,220429.87947,uhf211
+Washington Heights - Inwood,2010,Number,267068.19991,uhf301
+Central Harlem - Morningside Heights,2010,Number,182750.57588,uhf302
+East Harlem,2010,Number,112967.66932,uhf303
+Upper West Side,2010,Number,208876.91816,uhf304
+Upper East Side,2010,Number,211313.77716,uhf305
+Chelsea - Clinton,2010,Number,146989.62434,uhf306
+Gramercy Park -  Murray Hill,2010,Number,126495.2492,uhf307
+Greenwich Village - Soho,2010,Number,81913.6653,uhf308
+Union Square - Lower East Side,2010,Number,183826.70169,uhf309
+Lower Manhattan,2010,Number,57991.45207,uhf310
+Long Island City - Astoria,2010,Number,206746.7315,uhf401
+West Queens,2010,Number,446810.15992,uhf402
+Flushing - Clearview,2010,Number,241915.72959,uhf403
+Bayside - Little Neck,2010,Number,86485.79258,uhf404
+Ridgewood - Forest Hills,2010,Number,257249.68043,uhf405
+Fresh Meadows,2010,Number,98757.25123,uhf406
+Southwest Queens,2010,Number,279835.16204,uhf407
+Jamaica,2010,Number,309210.35308,uhf408
+Southeast Queens,2010,Number,208148.47475,uhf409
+Rockaway,2010,Number,124498.54037,uhf410
+Port  Richmond,2010,Number,66662.5436,uhf501
+Stapleton - St. George,2010,Number,120477.99712,uhf502
+Willowbrook,2010,Number,87359.37992,uhf503
+South Beach - Tottenville,2010,Number,194870.07936,uhf504
+Kingsbridge - Riverdale,2011,Number,92860.55806,uhf101
+Northeast Bronx,2011,Number,198244.21681,uhf102
+Fordham - Bronx Park,2011,Number,252855.40649,uhf103
+Pelham - Throgs Neck,2011,Number,297098.17254,uhf104
+Crotona - Tremont,2011,Number,208392.35697,uhf105
+High Bridge - Morrisania,2011,Number,210553.54514,uhf106
+Hunts Point - Mott Haven,2011,Number,135626.32399,uhf107
+Greenpoint,2011,Number,131575.1576,uhf201
+Downtown  - Heights - Slope,2011,Number,239991.57825,uhf202
+Bedford Stuyvesant - Crown Heights,2011,Number,331766.85038,uhf203
+East New York,2011,Number,191379.60831,uhf204
+Sunset Park,2011,Number,121126.80696,uhf205
+Borough Park,2011,Number,322874.94334,uhf206
+East Flatbush - Flatbush,2011,Number,300848.69159,uhf207
+Canarsie - Flatlands,2011,Number,209055.60556,uhf208
+Bensonhurst - Bay Ridge,2011,Number,193812.32539,uhf209
+Coney Island - Sheepshead Bay,2011,Number,279113.84167,uhf210
+Williamsburg - Bushwick,2011,Number,219274.59095,uhf211
+Washington Heights - Inwood,2011,Number,267375.6016,uhf301
+Central Harlem - Morningside Heights,2011,Number,182526.26619,uhf302
+East Harlem,2011,Number,113131.12073,uhf303
+Upper West Side,2011,Number,211737.2941,uhf304
+Upper East Side,2011,Number,214721.50856,uhf305
+Chelsea - Clinton,2011,Number,148625.12099,uhf306
+Gramercy Park -  Murray Hill,2011,Number,127988.9144,uhf307
+Greenwich Village - Soho,2011,Number,82989.34593,uhf308
+Union Square - Lower East Side,2011,Number,185130.17088,uhf309
+Lower Manhattan,2011,Number,58882.33207,uhf310
+Long Island City - Astoria,2011,Number,206993.75222,uhf401
+West Queens,2011,Number,449813.84942,uhf402
+Flushing - Clearview,2011,Number,243249.55188,uhf403
+Bayside - Little Neck,2011,Number,86464.19283,uhf404
+Ridgewood - Forest Hills,2011,Number,256430.90495,uhf405
+Fresh Meadows,2011,Number,98956.50993,uhf406
+Southwest Queens,2011,Number,281218.70068,uhf407
+Jamaica,2011,Number,313472.01345,uhf408
+Southeast Queens,2011,Number,210935.7507,uhf409
+Rockaway,2011,Number,124866.5185,uhf410
+Port  Richmond,2011,Number,67066.40079,uhf501
+Stapleton - St. George,2011,Number,121230.59308,uhf502
+Willowbrook,2011,Number,87725.24493,uhf503
+South Beach - Tottenville,2011,Number,194980.7612,uhf504
+Kingsbridge - Riverdale,2012,Number,93260.03546,uhf101
+Northeast Bronx,2012,Number,199562.5978,uhf102
+Fordham - Bronx Park,2012,Number,256005.93427,uhf103
+Pelham - Throgs Neck,2012,Number,299802.70599,uhf104
+Crotona - Tremont,2012,Number,211176.78141,uhf105
+High Bridge - Morrisania,2012,Number,213259.92904,uhf106
+Hunts Point - Mott Haven,2012,Number,137558.17602,uhf107
+Greenpoint,2012,Number,133583.73893,uhf201
+Downtown  - Heights - Slope,2012,Number,245392.67011,uhf202
+Bedford Stuyvesant - Crown Heights,2012,Number,333458.36625,uhf203
+East New York,2012,Number,191760.29654,uhf204
+Sunset Park,2012,Number,123258.80713,uhf205
+Borough Park,2012,Number,328041.07534,uhf206
+East Flatbush - Flatbush,2012,Number,302547.30748,uhf207
+Canarsie - Flatlands,2012,Number,209910.37082,uhf208
+Bensonhurst - Bay Ridge,2012,Number,197271.25757,uhf209
+Coney Island - Sheepshead Bay,2012,Number,282751.63751,uhf210
+Williamsburg - Bushwick,2012,Number,220899.47232,uhf211
+Washington Heights - Inwood,2012,Number,270384.98259,uhf301
+Central Harlem - Morningside Heights,2012,Number,183345.01887,uhf302
+East Harlem,2012,Number,114195.18185,uhf303
+Upper West Side,2012,Number,214136.76757,uhf304
+Upper East Side,2012,Number,217217.05404,uhf305
+Chelsea - Clinton,2012,Number,149929.96295,uhf306
+Gramercy Park -  Murray Hill,2012,Number,129281.69709,uhf307
+Greenwich Village - Soho,2012,Number,83762.43504,uhf308
+Union Square - Lower East Side,2012,Number,186825.51717,uhf309
+Lower Manhattan,2012,Number,59598.7402,uhf310
+Long Island City - Astoria,2012,Number,208641.95946,uhf401
+West Queens,2012,Number,454424.17392,uhf402
+Flushing - Clearview,2012,Number,246138.0205,uhf403
+Bayside - Little Neck,2012,Number,87090.29663,uhf404
+Ridgewood - Forest Hills,2012,Number,257404.52046,uhf405
+Fresh Meadows,2012,Number,99649.53538,uhf406
+Southwest Queens,2012,Number,283624.70636,uhf407
+Jamaica,2012,Number,315349.7249,uhf408
+Southeast Queens,2012,Number,211940.89295,uhf409
+Rockaway,2012,Number,124931.65204,uhf410
+Port  Richmond,2012,Number,66960.82779,uhf501
+Stapleton - St. George,2012,Number,121216.13884,uhf502
+Willowbrook,2012,Number,87837.30559,uhf503
+South Beach - Tottenville,2012,Number,194643.72778,uhf504
+Kingsbridge - Riverdale,2013,Number,93330.87785,uhf101
+Northeast Bronx,2013,Number,200810.60422,uhf102
+Fordham - Bronx Park,2013,Number,258295.96301,uhf103
+Pelham - Throgs Neck,2013,Number,301600.75046,uhf104
+Crotona - Tremont,2013,Number,213342.62943,uhf105
+High Bridge - Morrisania,2013,Number,215421.6586,uhf106
+Hunts Point - Mott Haven,2013,Number,139076.16644,uhf107
+Greenpoint,2013,Number,135069.42115,uhf201
+Downtown  - Heights - Slope,2013,Number,249927.28318,uhf202
+Bedford Stuyvesant - Crown Heights,2013,Number,334161.84717,uhf203
+East New York,2013,Number,191595.02353,uhf204
+Sunset Park,2013,Number,124850.70372,uhf205
+Borough Park,2013,Number,332092.5032,uhf206
+East Flatbush - Flatbush,2013,Number,303428.41317,uhf207
+Canarsie - Flatlands,2013,Number,210200.63561,uhf208
+Bensonhurst - Bay Ridge,2013,Number,199987.70591,uhf209
+Coney Island - Sheepshead Bay,2013,Number,285437.94952,uhf210
+Williamsburg - Bushwick,2013,Number,221749.51385,uhf211
+Washington Heights - Inwood,2013,Number,271200.1152,uhf301
+Central Harlem - Morningside Heights,2013,Number,182935.53252,uhf302
+East Harlem,2013,Number,114354.20733,uhf303
+Upper West Side,2013,Number,215023.58489,uhf304
+Upper East Side,2013,Number,218181.44772,uhf305
+Chelsea - Clinton,2013,Number,150035.74092,uhf306
+Gramercy Park -  Murray Hill,2013,Number,129679.69626,uhf307
+Greenwich Village - Soho,2013,Number,83887.57219,uhf308
+Union Square - Lower East Side,2013,Number,187121.40789,uhf309
+Lower Manhattan,2013,Number,59829.40219,uhf310
+Long Island City - Astoria,2013,Number,210117.38138,uhf401
+West Queens,2013,Number,458210.31197,uhf402
+Flushing - Clearview,2013,Number,248654.05111,uhf403
+Bayside - Little Neck,2013,Number,87584.66622,uhf404
+Ridgewood - Forest Hills,2013,Number,257994.88307,uhf405
+Fresh Meadows,2013,Number,100255.51682,uhf406
+Southwest Queens,2013,Number,285671.86212,uhf407
+Jamaica,2013,Number,317538.67077,uhf408
+Southeast Queens,2013,Number,213169.10282,uhf409
+Rockaway,2013,Number,125016.19661,uhf410
+Port  Richmond,2013,Number,67330.48348,uhf501
+Stapleton - St. George,2013,Number,121828.80299,uhf502
+Willowbrook,2013,Number,88156.60855,uhf503
+South Beach - Tottenville,2013,Number,194582.10498,uhf504
+Kingsbridge - Riverdale,2014,Number,93464.59321,uhf101
+Northeast Bronx,2014,Number,201947.39175,uhf102
+Fordham - Bronx Park,2014,Number,260297.10241,uhf103
+Pelham - Throgs Neck,2014,Number,303326.9519,uhf104
+Crotona - Tremont,2014,Number,215122.37749,uhf105
+High Bridge - Morrisania,2014,Number,217229.85845,uhf106
+Hunts Point - Mott Haven,2014,Number,140333.03478,uhf107
+Greenpoint,2014,Number,136251.89583,uhf201
+Downtown  - Heights - Slope,2014,Number,253710.88656,uhf202
+Bedford Stuyvesant - Crown Heights,2014,Number,334023.79556,uhf203
+East New York,2014,Number,190984.96859,uhf204
+Sunset Park,2014,Number,126200.18706,uhf205
+Borough Park,2014,Number,335633.92336,uhf206
+East Flatbush - Flatbush,2014,Number,303640.91392,uhf207
+Canarsie - Flatlands,2014,Number,210017.88825,uhf208
+Bensonhurst - Bay Ridge,2014,Number,202366.11783,uhf209
+Coney Island - Sheepshead Bay,2014,Number,287701.23745,uhf210
+Williamsburg - Bushwick,2014,Number,222148.18559,uhf211
+Washington Heights - Inwood,2014,Number,271566.54878,uhf301
+Central Harlem - Morningside Heights,2014,Number,182327.15392,uhf302
+East Harlem,2014,Number,114372.62599,uhf303
+Upper West Side,2014,Number,215781.28745,uhf304
+Upper East Side,2014,Number,218880.43625,uhf305
+Chelsea - Clinton,2014,Number,150158.56971,uhf306
+Gramercy Park -  Murray Hill,2014,Number,130171.02352,uhf307
+Greenwich Village - Soho,2014,Number,84045.09145,uhf308
+Union Square - Lower East Side,2014,Number,187756.10605,uhf309
+Lower Manhattan,2014,Number,60102.95886,uhf310
+Long Island City - Astoria,2014,Number,211426.63321,uhf401
+West Queens,2014,Number,461023.67194,uhf402
+Flushing - Clearview,2014,Number,251213.95424,uhf403
+Bayside - Little Neck,2014,Number,88110.62233,uhf404
+Ridgewood - Forest Hills,2014,Number,258389.57923,uhf405
+Fresh Meadows,2014,Number,100825.33651,uhf406
+Southwest Queens,2014,Number,287320.70006,uhf407
+Jamaica,2014,Number,318823.01883,uhf408
+Southeast Queens,2014,Number,213831.44372,uhf409
+Rockaway,2014,Number,124783.92794,uhf410
+Port  Richmond,2014,Number,67529.78141,uhf501
+Stapleton - St. George,2014,Number,122160.24499,uhf502
+Willowbrook,2014,Number,88376.06203,uhf503
+South Beach - Tottenville,2014,Number,194008.91157,uhf504
+Kingsbridge - Riverdale,2015,Number,93692.75037,uhf101
+Northeast Bronx,2015,Number,203034.88421,uhf102
+Fordham - Bronx Park,2015,Number,262275.25623,uhf103
+Pelham - Throgs Neck,2015,Number,305281.75945,uhf104
+Crotona - Tremont,2015,Number,216806.68977,uhf105
+High Bridge - Morrisania,2015,Number,218940.90803,uhf106
+Hunts Point - Mott Haven,2015,Number,141499.56195,uhf107
+Greenpoint,2015,Number,137046.47316,uhf201
+Downtown  - Heights - Slope,2015,Number,256802.42099,uhf202
+Bedford Stuyvesant - Crown Heights,2015,Number,332924.2937,uhf203
+East New York,2015,Number,189838.88176,uhf204
+Sunset Park,2015,Number,127218.11173,uhf205
+Borough Park,2015,Number,338481.64932,uhf206
+East Flatbush - Flatbush,2015,Number,303040.53806,uhf207
+Canarsie - Flatlands,2015,Number,209328.84552,uhf208
+Bensonhurst - Bay Ridge,2015,Number,204400.53526,uhf209
+Coney Island - Sheepshead Bay,2015,Number,289618.51377,uhf210
+Williamsburg - Bushwick,2015,Number,221906.73674,uhf211
+Washington Heights - Inwood,2015,Number,272427.93822,uhf301
+Central Harlem - Morningside Heights,2015,Number,182161.23031,uhf302
+East Harlem,2015,Number,114665.46349,uhf303
+Upper West Side,2015,Number,216733.54554,uhf304
+Upper East Side,2015,Number,219658.8965,uhf305
+Chelsea - Clinton,2015,Number,150506.74954,uhf306
+Gramercy Park -  Murray Hill,2015,Number,130847.92987,uhf307
+Greenwich Village - Soho,2015,Number,84292.71813,uhf308
+Union Square - Lower East Side,2015,Number,188873.9543,uhf309
+Lower Manhattan,2015,Number,60490.71787,uhf310
+Long Island City - Astoria,2015,Number,212060.30449,uhf401
+West Queens,2015,Number,462738.52826,uhf402
+Flushing - Clearview,2015,Number,253337.05485,uhf403
+Bayside - Little Neck,2015,Number,88469.71431,uhf404
+Ridgewood - Forest Hills,2015,Number,258095.83047,uhf405
+Fresh Meadows,2015,Number,101174.25101,uhf406
+Southwest Queens,2015,Number,288376.40914,uhf407
+Jamaica,2015,Number,319867.66209,uhf408
+Southeast Queens,2015,Number,214382.29793,uhf409
+Rockaway,2015,Number,124359.99366,uhf410
+Port  Richmond,2015,Number,67777.50169,uhf501
+Stapleton - St. George,2015,Number,122531.33137,uhf502
+Willowbrook,2015,Number,88656.00286,uhf503
+South Beach - Tottenville,2015,Number,193556.16408,uhf504
+Kingsbridge - Riverdale,2016,Number,93622.6398,uhf101
+Northeast Bronx,2016,Number,203437.18702,uhf102
+Fordham - Bronx Park,2016,Number,263343.66738,uhf103
+Pelham - Throgs Neck,2016,Number,306250.73491,uhf104
+Crotona - Tremont,2016,Number,217744.0836,uhf105
+High Bridge - Morrisania,2016,Number,219904.56252,uhf106
+Hunts Point - Mott Haven,2016,Number,142202.68476,uhf107
+Greenpoint,2016,Number,137394.53548,uhf201
+Downtown  - Heights - Slope,2016,Number,258948.90006,uhf202
+Bedford Stuyvesant - Crown Heights,2016,Number,331122.22692,uhf203
+East New York,2016,Number,188424.72279,uhf204
+Sunset Park,2016,Number,127905.06024,uhf205
+Borough Park,2016,Number,340070.58426,uhf206
+East Flatbush - Flatbush,2016,Number,301715.09068,uhf207
+Canarsie - Flatlands,2016,Number,208143.18185,uhf208
+Bensonhurst - Bay Ridge,2016,Number,205660.56903,uhf209
+Coney Island - Sheepshead Bay,2016,Number,290593.68343,uhf210
+Williamsburg - Bushwick,2016,Number,221253.44526,uhf211
+Washington Heights - Inwood,2016,Number,271834.19937,uhf301
+Central Harlem - Morningside Heights,2016,Number,181325.1647,uhf302
+East Harlem,2016,Number,114363.31063,uhf303
+Upper West Side,2016,Number,216962.41317,uhf304
+Upper East Side,2016,Number,219785.15908,uhf305
+Chelsea - Clinton,2016,Number,150382.96784,uhf306
+Gramercy Park -  Murray Hill,2016,Number,131193.67228,uhf307
+Greenwich Village - Soho,2016,Number,84300.94552,uhf308
+Union Square - Lower East Side,2016,Number,189254.0616,uhf309
+Lower Manhattan,2016,Number,60698.03981,uhf310
+Long Island City - Astoria,2016,Number,212083.59471,uhf401
+West Queens,2016,Number,462978.95891,uhf402
+Flushing - Clearview,2016,Number,254749.54808,uhf403
+Bayside - Little Neck,2016,Number,88611.61096,uhf404
+Ridgewood - Forest Hills,2016,Number,257153.61546,uhf405
+Fresh Meadows,2016,Number,101283.52175,uhf406
+Southwest Queens,2016,Number,288680.33097,uhf407
+Jamaica,2016,Number,320186.91047,uhf408
+Southeast Queens,2016,Number,214483.09557,uhf409
+Rockaway,2016,Number,123713.31912,uhf410
+Port  Richmond,2016,Number,68332.43568,uhf501
+Stapleton - St. George,2016,Number,123402.3917,uhf502
+Willowbrook,2016,Number,89229.23861,uhf503
+South Beach - Tottenville,2016,Number,193249.93401,uhf504
+Kingsbridge - Riverdale,2017,Number,93270.41339,uhf101
+Northeast Bronx,2017,Number,202666.56465,uhf102
+Fordham - Bronx Park,2017,Number,262431.44186,uhf103
+Pelham - Throgs Neck,2017,Number,305463.85152,uhf104
+Crotona - Tremont,2017,Number,216846.47541,uhf105
+High Bridge - Morrisania,2017,Number,219073.28992,uhf106
+Hunts Point - Mott Haven,2017,Number,141687.57326,uhf107
+Greenpoint,2017,Number,136611.93951,uhf201
+Downtown  - Heights - Slope,2017,Number,259005.61451,uhf202
+Bedford Stuyvesant - Crown Heights,2017,Number,328162.11356,uhf203
+East New York,2017,Number,186431.00328,uhf204
+Sunset Park,2017,Number,127364.97002,uhf205
+Borough Park,2017,Number,338791.05425,uhf206
+East Flatbush - Flatbush,2017,Number,299334.96567,uhf207
+Canarsie - Flatlands,2017,Number,206264.93102,uhf208
+Bensonhurst - Bay Ridge,2017,Number,205212.28769,uhf209
+Coney Island - Sheepshead Bay,2017,Number,289805.02265,uhf210
+Williamsburg - Bushwick,2017,Number,219401.09783,uhf211
+Washington Heights - Inwood,2017,Number,270132.13092,uhf301
+Central Harlem - Morningside Heights,2017,Number,179761.53879,uhf302
+East Harlem,2017,Number,113623.30172,uhf303
+Upper West Side,2017,Number,216363.1467,uhf304
+Upper East Side,2017,Number,219179.96551,uhf305
+Chelsea - Clinton,2017,Number,149674.98657,uhf306
+Gramercy Park -  Murray Hill,2017,Number,131094.35032,uhf307
+Greenwich Village - Soho,2017,Number,84037.67278,uhf308
+Union Square - Lower East Side,2017,Number,189025.16837,uhf309
+Lower Manhattan,2017,Number,60678.23843,uhf310
+Long Island City - Astoria,2017,Number,210760.49024,uhf401
+West Queens,2017,Number,460651.51431,uhf402
+Flushing - Clearview,2017,Number,254344.58945,uhf403
+Bayside - Little Neck,2017,Number,88133.92522,uhf404
+Ridgewood - Forest Hills,2017,Number,254714.25279,uhf405
+Fresh Meadows,2017,Number,100700.54804,uhf406
+Southwest Queens,2017,Number,287169.60801,uhf407
+Jamaica,2017,Number,318831.89591,uhf408
+Southeast Queens,2017,Number,213496.75429,uhf409
+Rockaway,2017,Number,122556.31161,uhf410
+Port  Richmond,2017,Number,68692.10527,uhf501
+Stapleton - St. George,2017,Number,124098.49923,uhf502
+Willowbrook,2017,Number,89999.08872,uhf503
+South Beach - Tottenville,2017,Number,192726.30678,uhf504
+Kingsbridge - Riverdale,2018,Number,92534.6045,uhf101
+Northeast Bronx,2018,Number,201521.85921,uhf102
+Fordham - Bronx Park,2018,Number,261272.90383,uhf103
+Pelham - Throgs Neck,2018,Number,304034.77552,uhf104
+Crotona - Tremont,2018,Number,215942.34603,uhf105
+High Bridge - Morrisania,2018,Number,218195.72238,uhf106
+Hunts Point - Mott Haven,2018,Number,141190.41853,uhf107
+Greenpoint,2018,Number,135943.83402,uhf201
+Downtown  - Heights - Slope,2018,Number,259325.02558,uhf202
+Bedford Stuyvesant - Crown Heights,2018,Number,325714.98246,uhf203
+East New York,2018,Number,184764.43328,uhf204
+Sunset Park,2018,Number,126721.0866,uhf205
+Borough Park,2018,Number,337152.76228,uhf206
+East Flatbush - Flatbush,2018,Number,297254.53109,uhf207
+Canarsie - Flatlands,2018,Number,204565.16199,uhf208
+Bensonhurst - Bay Ridge,2018,Number,204629.6616,uhf209
+Coney Island - Sheepshead Bay,2018,Number,288893.7477,uhf210
+Williamsburg - Bushwick,2018,Number,217864.77339,uhf211
+Washington Heights - Inwood,2018,Number,269141.85874,uhf301
+Central Harlem - Morningside Heights,2018,Number,179078.11471,uhf302
+East Harlem,2018,Number,113268.17302,uhf303
+Upper West Side,2018,Number,216284.08096,uhf304
+Upper East Side,2018,Number,219078.53381,uhf305
+Chelsea - Clinton,2018,Number,149437.68718,uhf306
+Gramercy Park -  Murray Hill,2018,Number,131358.22891,uhf307
+Greenwich Village - Soho,2018,Number,84055.45177,uhf308
+Union Square - Lower East Side,2018,Number,189305.02585,uhf309
+Lower Manhattan,2018,Number,60936.31176,uhf310
+Long Island City - Astoria,2018,Number,208828.30622,uhf401
+West Queens,2018,Number,457315.67636,uhf402
+Flushing - Clearview,2018,Number,253235.26906,uhf403
+Bayside - Little Neck,2018,Number,87431.63278,uhf404
+Ridgewood - Forest Hills,2018,Number,251726.0752,uhf405
+Fresh Meadows,2018,Number,99867.41663,uhf406
+Southwest Queens,2018,Number,284964.02589,uhf407
+Jamaica,2018,Number,316626.59214,uhf408
+Southeast Queens,2018,Number,211954.90848,uhf409
+Rockaway,2018,Number,121153.00052,uhf410
+Port  Richmond,2018,Number,68876.59813,uhf501
+Stapleton - St. George,2018,Number,124623.25132,uhf502
+Willowbrook,2018,Number,90834.28819,uhf503
+South Beach - Tottenville,2018,Number,191844.86235,uhf504

@@ -1,20 +1,20 @@
 import * as d3 from 'd3'
-import * as topojson from 'topojson'
-import d3Annotation from 'd3-svg-annotation'
+// import * as topojson from 'topojson'
+// import d3Annotation from 'd3-svg-annotation'
 
 const margin = { top: 20, left: 20, right: 20, bottom: 20 }
 const height = 500 - margin.top - margin.bottom
 const width = 550 - margin.left - margin.right
 
 const svg = d3
-  .select('#racing-bar-chart')
+  .select('#waste-change')
   .append('svg')
   .attr('height', height + margin.top + margin.bottom)
   .attr('width', width + margin.left + margin.right)
   .append('g')
   .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
 
-const parseTime = d3.timeParse('%Y-%m-%d')
+// const parseTime = d3.timeParse('%Y-%m-%d')
 
 const colorScale = d3
   .scaleOrdinal()
@@ -29,7 +29,7 @@ const pointScale = d3.scalePoint().range([height, 0])
 const bandScale = d3.scaleBand().range([height, 0])
 // .paddingInner(0.4)
 
-d3.csv(require('/data/racing_bar_chart.csv'))
+d3.csv(require('/data/year_raw_waste_and_recycled.csv'))
   .then(ready)
   .catch(err => console.log('Failed with', err))
 
