@@ -386,7 +386,7 @@ function ready([datapoints, tipdata]) {
         .attr('opacity', 1)
         .attr('d', path)
         .attr('fill', function(d) {
-          console.log(d)
+          // console.log(d)
           if (!d.properties.borocd) {
             return '#f6f6f6'
           } else {

@@ -107,7 +107,7 @@ img {
 .footer {
   margin: auto;
   max-width: 700px;
-  padding-top: 10px;
+  padding-top: 0px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -115,7 +115,7 @@ img {
 .story-body-full {
   margin: auto;
   max-width: 950px;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 .footer {
@@ -479,6 +479,21 @@ p.caption {
 .swiper-container {
   width: 100vw;
   height: 100vh;
+}
+
+.ticker-holder {
+  width: 100%;
+  text-align: center;
+}
+
+.ticker {
+  font-size: 60px;
+}
+
+.ticker-note {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
 }
 
 .arrow
