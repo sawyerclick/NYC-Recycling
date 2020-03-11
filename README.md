@@ -1,11 +1,12 @@
 SOMA, if you're reading this, it'll be done in the next few days. I'm tweaking some viz and adding reporting.
 
-# ✨ For High Society, Less Recycling ✨
-We're looking at the relationship between recycling in New York City's community districts and its wealth. This project was created by Sawyer Click, Frida Cai and Aseem Shukla for the final project in Soma's Storytelling class at Columbia Journalism School.
+# ✨ Zero Waste, Zero Chance ✨
+Analyzing the effectiveness of New York's plan to go zero waste by 2030. Some neighborhoods haven't been playing along, putting the city at risk of drasticlly missing it's plan. At tis rate, it wont
 
 Check out the whole gizmo here: https://nyc-recycling.netlify.com/
 ### What have we found so far?
-Over the last 10 years, recycling in the wealthiest community districts has dwindled. Less affluent districts have started recycling more.![alt-text-2](https://github.com/SawyerClick/NYC-Recycling/blob/master/src/images/nyc-recycling.png "NYC's Community Districts")
+Over the last decade, the city has made nearly no progress in decreasing the amount of waste it produces. New York is still, by far, the trash capital of the world. Even worse, some neighborhoods have decreasing diversion rates, meaning they're even recycling less than they were a decade ago.
+
 
 ### Current Status
 We're in the final stages of creating our graphics and reporting.
@@ -15,7 +16,7 @@ Recycling data comes from NYC Open Data. We might now use all of them, but they'
 * <a href='https://data.cityofnewyork.us/City-Government/DSNY-Monthly-Tonnage-Data/ebb7-mvp5' target="_blank">Monthly Tonnage Data</a>
 * <a href='https://data.cityofnewyork.us/Environment/Public-Recycling-Bins/sxx4-xhzg' target="_blank">Public Recycling Baskets</a>
 * <a href='https://data.cityofnewyork.us/Environment/Recycling-Diversion-and-Capture-Rates/gaq9-z3hz' target="_blank">Recycling Diversion and Capture Rates</a>
- 
+
 We have census data by community district through the city's Community Profiles
 * <a href='https://communityprofiles.planning.nyc.gov/' target='_blank'>District Demographics</a>
 

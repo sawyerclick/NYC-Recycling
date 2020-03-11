@@ -30,7 +30,7 @@ const colorScalePositive = d3
   .range(['#f3f3f3', 'dodgerblue'])
 const colorScaleNegative = d3
   .scaleLinear()
-  .domain([-100, 0])
+  .domain([-500, 0])
   .range(['#f3f3f3', 'indianred'])
 
 // below is for the tooltip
@@ -109,13 +109,11 @@ function ready([datapoints, tipdata]) {
     .data(districts.features)
     .enter()
     .append('path')
-    .attr('class', function(d) {
-      if (String(d.properties.boro_cd) === '101') {
-        return 'districts district-101'
-      } else {
-        return 'districts notDistrict-101'
-      }
-    })
+    .attr(
+      'class',
+      d => `districts
+    district-${d.properties.boro_cd}`
+    )
     .attr('id', function(d) {
       if (String(d.properties.boro_cd)[0] === '1') {
         return 'manhattan'
@@ -143,12 +141,12 @@ function ready([datapoints, tipdata]) {
           .duration(100)
           .attr('stroke', 'white')
           .attr('stroke-width', '3px')
-          .raise()
+        // .raise()
 
         //  Grabbing this boro and filtering for just it in the long csv
         const thisBoro = d.properties.boro_cd
 
-        tip.show(d, this)
+        // tip.show(d, this)
 
         const tipSVG = d3
           .select('#tipDiv')
@@ -178,7 +176,7 @@ function ready([datapoints, tipdata]) {
         //   .select('#yearly-change')
         //   .datum(tipDataFiltered)
         //   .transition()
-        //   .ease(d3.easeQuad)
+        //   .ease(d3.easeLinear)
         //   .attr('d', line)
         //   .attr('class', 'tip-line')
         //   .attr('fill', 'none')
@@ -198,9 +196,9 @@ function ready([datapoints, tipdata]) {
         .duration(100)
         .attr('stroke', 'none')
         .attr('stroke-width', '0')
-        .lower()
+      // .lower()
 
-      tip.hide(d, this)
+      // tip.hide(d, this)
     })
 
   svg
@@ -208,7 +206,7 @@ function ready([datapoints, tipdata]) {
     .style('font-weight', 600)
     .style('font-size', '42px')
     .attr('class', 'poverty-level-percent')
-    .text('>15%')
+    .text('Recycling')
     .attr('id', 'text')
     .attr('text-anchor', 'end')
   svg
@@ -216,7 +214,7 @@ function ready([datapoints, tipdata]) {
     .style('font-weight', 400)
     .style('font-size', '32px')
     .attr('class', 'poverty-level-poverty')
-    .text('poverty')
+    .text('changes')
     .attr('id', 'text')
     .attr('text-anchor', 'end')
 
@@ -267,7 +265,7 @@ function ready([datapoints, tipdata]) {
     .attr('alignment-baseline', 'middle')
     .attr('class', 'neg-text')
 
-  d3.selectAll('#text').attr('opacity', 0)
+  d3.selectAll('#text').attr('opacity', 1)
 
   function render() {
     const svgContainer = svg.node().closest('div')
@@ -341,17 +339,16 @@ function ready([datapoints, tipdata]) {
       colorScaleNegative.domain([0, d3.min(pctChange)])
 
       svg
-        .selectAll('#text')
-        .transition()
-        .duration(300)
-        .ease(d3.easeQuad)
-        .attr('opacity', 0)
+        .select('.poverty-level-percent')
+        .text('Recycling')
+        .attr('fill', 'black')
+      svg.select('.poverty-level-poverty').text('changes')
 
       svg
         .selectAll('.districts')
         .transition()
-        .duration(300)
-        .ease(d3.easeQuad)
+        .duration(750)
+        .ease(d3.easeLinear)
         .attr('d', path)
         .attr('fill', function(d) {
           if (+d.properties.pct_change > 0) {
@@ -376,16 +373,16 @@ function ready([datapoints, tipdata]) {
       svg
         .selectAll('#text')
         .transition()
-        .duration(300)
-        .ease(d3.easeQuad)
+        .duration(750)
+        .ease(d3.easeLinear)
         .attr('opacity', 1)
 
       svg
         .selectAll('.districts')
         .transition()
         .delay(200)
-        .duration(300)
-        .ease(d3.easeQuad)
+        .duration(750)
+        .ease(d3.easeLinear)
         .attr('opacity', 1)
         .attr('d', path)
         .attr('fill', function(d) {
@@ -418,16 +415,16 @@ function ready([datapoints, tipdata]) {
       svg
         .selectAll('#text')
         .transition()
-        .duration(300)
-        .ease(d3.easeQuad)
+        .duration(750)
+        .ease(d3.easeLinear)
         .attr('opacity', 1)
 
       svg
         .selectAll('.districts')
         .transition()
         .delay(200)
-        .duration(300)
-        .ease(d3.easeQuad)
+        .duration(750)
+        .ease(d3.easeLinear)
         .attr('opacity', 1)
         .attr('d', path)
         .attr('fill', function(d) {
@@ -454,29 +451,35 @@ function ready([datapoints, tipdata]) {
       svg
         .selectAll('#text')
         .transition()
-        .duration(300)
-        .ease(d3.easeQuad)
+        .duration(750)
+        .ease(d3.easeLinear)
         .attr('opacity', 1)
 
       svg
         .selectAll('.districts')
+        .attr('stroke', 'none')
+        .attr('stroke-width', 0)
         .transition()
-        .duration(300)
+        .duration(750)
         .ease(d3.easeQuad)
         .attr('opacity', 1)
         .attr('d', path)
         .attr('fill', function(d) {
-          if (+d.properties.pct_change < 0) {
-            return colorScaleNegative(+d.properties.pct_change)
+          if (!d.properties.borocd) {
+            return '#f6f6f6'
           } else {
-            return '#d3d3d3'
+            if (+d.properties.pct_change < 0) {
+              return colorScaleNegative(+d.properties.pct_change)
+            } else if (+d.properties.pct_change > 0) {
+              return '#d3d3d3'
+            }
           }
         })
         .attr('stroke', function(d) {
-          return d.properties.income > 57000 ? 'peachpuff' : 'none'
+          return d.properties.income > 80000 ? 'peachpuff' : 'none'
         })
         .attr('stroke-width', 3)
-        .raise()
+      // .raise()
     })
     d3.selectAll('#step4').on('stepin', function() {
       projection.fitSize([newWidth, newHeight], manhattanJSON)
@@ -500,30 +503,37 @@ function ready([datapoints, tipdata]) {
         .duration(600)
         .attr('d', path)
         .attr('opacity', 1)
-        .attr('stroke', function(d) {
-          return d.properties.income > 90000 ? 'peachpuff' : 'none'
-        })
-        .attr('stroke-width', 3)
+      // .attr('stroke', function(d) {
+      //   return d.properties.income > 90000 ? 'peachpuff' : 'none'
+      // })
+      // .attr('stroke-width', 2)
     })
 
     d3.selectAll('#step5').on('stepin', function() {
       projection.fitSize([newWidth, newHeight], manhattanJSON)
       svg
-        .selectAll('.notDistrict-101')
+        .selectAll('.districts')
         .transition()
-        .duration(300)
-        .attr('opacity', 0.2)
+        .duration(750)
+        .attr('opacity', 0.4)
       svg
         .selectAll('#notmanhattan')
         .transition()
-        .duration(300)
+        .duration(750)
         .attr('opacity', 0)
 
       svg
         .select('.district-101')
         .transition()
-        .duration(300)
-        .ease(d3.easeQuad)
+        .duration(750)
+        .ease(d3.easeLinear)
+        .attr('opacity', 1)
+
+      svg
+        .select('.district-106')
+        .transition()
+        .duration(750)
+        .ease(d3.easeLinear)
         .attr('opacity', 1)
     })
   }

@@ -64,9 +64,9 @@ img {
 
 .header {
   height: 100px;
-  width: 650px;
+  width: 450px;
   left: 50%;
-  margin-left: -325px;
+  margin-left: -225px;
   top: 50%;
   margin-top: -100px;
   text-align: center;
@@ -108,6 +108,8 @@ img {
   margin: auto;
   max-width: 700px;
   padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .story-body-full {
@@ -162,7 +164,7 @@ h2.subhead {
   font-size: 1.35rem;
   line-height: 1.6rem;
   margin-bottom: 0;
-  margin-top: 15px;
+  margin-top: 5px;
   font-weight: 400;
   position: relative;
   z-index: 1;
@@ -293,6 +295,7 @@ h2.chart-headline {
   margin-top: 3rem;
   margin-bottom: 3px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 h3.chart-headline {
@@ -521,13 +524,13 @@ p.caption {
     margin-left: -175px;
   }
   .headline {
-    font-size: 2.35rem;
+    font-size: 3rem;
   }
 
   h2.subhead {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 19px;
   }
 
 }

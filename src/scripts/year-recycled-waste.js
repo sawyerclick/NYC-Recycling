@@ -113,7 +113,7 @@ function ready(datapoints) {
     drawBars(svg, selectedData, i)
   }, 750)
 
-  d3.select('#waste-step').on('stepin', function() {
+  d3.selectAll('#waste').on('stepin', function() {
     console.log('hi')
   })
 
@@ -126,9 +126,8 @@ function ready(datapoints) {
     .style('stroke-dasharray', '3 3')
     .style('stroke-width', '2px')
     .style('color', '#555')
-    .style('font-family', 'Lato')
+    .style('font-family', 'Montserrat')
     .style('font-size', '12px')
-    .raise()
 
   function render() {
     const svgContainer = svg.node().closest('div')
