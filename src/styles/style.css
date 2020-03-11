@@ -299,6 +299,7 @@ h2.chart-headline {
 }
 
 h3.chart-headline {
+  font-size: 22px;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -487,13 +488,13 @@ p.caption {
 }
 
 .ticker {
-  font-size: 60px;
+  font-size: px;
 }
 
 .ticker-note {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 .arrow
