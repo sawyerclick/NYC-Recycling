@@ -322,12 +322,19 @@ function ready([datapoints, tipdata]) {
 
     svg
       .select('.poverty-level-percent')
-      .attr('x', newWidth / 2.4)
-      .attr('y', newHeight * 0.4)
+      .attr('x', () =>
+        window.innerWidth < 600 ? newWidth / 2 : newWidth / 2.4
+      )
+      .style('text-anchor', () => (window.innerWidth < 600 ? 'middle' : 'end'))
+      .attr('y', () => (window.innerWidth < 600 ? 50 : newHeight * 0.4))
+
     svg
       .select('.poverty-level-poverty')
-      .attr('x', newWidth / 2.4)
-      .attr('y', newHeight * 0.46)
+      .attr('x', () =>
+        window.innerWidth < 600 ? newWidth / 2 : newWidth / 2.4
+      )
+      .attr('y', () => (window.innerWidth < 600 ? 85 : newHeight * 0.46))
+      .style('text-anchor', () => (window.innerWidth < 600 ? 'middle' : 'end'))
 
     // responsiveness
     d3.selectAll('#step1').on('stepin', function() {
