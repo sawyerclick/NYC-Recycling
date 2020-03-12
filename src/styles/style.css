@@ -260,7 +260,34 @@ p.note {
   width: 12px;
   border-radius: 50%;
   display: inline-block;
-  margin-right: 5px;
+  /* margin-right: 5px; */
+}
+
+#changes-legend {
+  padding-left: 0;
+}
+
+.tick line {
+  opacity: .1
+}
+
+.changes-group:hover {
+  opacity: 1;
+  /* stroke-width: 5px; */
+}
+
+.changes-group:hover text {
+  opacity: 1;
+}
+
+.domain {
+  opacity: 0;
+}
+
+.changes-legend-borough {
+  display: inline;
+  margin-right: 15px;
+  padding: 3px;
 }
 
 a {

@@ -1,2 +1,26 @@
-<div id='scatter'></div>
-<script src='/scripts/scatterplot-income.js'></script>
+<!-- <div id='scatter'></div> -->
+<div class='story-body-full'>
+  <h3>Recycling rate changes ranked by
+    <select id="changes-selector" name="changes-selector" class="dropdown" placeholder="2019 rate"/>
+      <option value='2019 rates'>2019 rates</option>
+      <option value='2009 rates'>2009 rates</option>
+      <option value='percentage point change'>percentage point change</option>
+      <option value='total waste'>total waste</option>
+      <option value='poverty rate'>poverty rate</option>
+  		<!-- <datalist id="communityDistrict" class="dropdown">
+  		</datalist> -->
+  </h3>
+
+  <ul id='changes-legend'>
+    <!-- <div style='display:inline;'>
+      <span class='dot' style='background-color:gray;'></span>
+      <p style='display:inline;padding-left:3px;margin-left:0px;margin-right:5px;'>2019</p>
+    </div> -->
+  </ul>
+
+  <!-- <button class='block inline' id='boroughColor'>Color by borough</button>
+<button class='block inline' id='changeColor'>Color by borough</button> -->
+  <div id='changes'></div>
+</div>
+<!-- <script src='/scripts/scatterplot-income.js'></script> -->
+<script src='/scripts/changes.js'></script>
