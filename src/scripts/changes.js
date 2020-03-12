@@ -1,8 +1,8 @@
 import * as d3 from 'd3'
 // import _ from 'lodash'
 
-const margin = { top: 35, left: 30, right: 30, bottom: 0 }
-const height = 700 - margin.top - margin.bottom
+const margin = { top: 35, left: 40, right: 40, bottom: 0 }
+const height = 500 - margin.top - margin.bottom
 const width = 700 - margin.left - margin.right
 
 const svg = d3
@@ -42,9 +42,10 @@ const xAxis = g =>
     .call(
       d3
         .axisTop(x)
-        .tickFormat(d => (d === 0 ? d + '% rec.' : d + '%'))
+        .tickFormat(d => d + '%')
         .tickPadding(2)
         .tickSizeInner(0)
+        .tickValues([0, 10, 20, 30])
     )
     .attr('class', 'axis-x-text')
     .call(g =>
@@ -66,7 +67,7 @@ d3.csv(
 
 function ready(data) {
   // this sorts the data
-  y.domain(data.map(d => +d.pct_recyc_2019).sort(d3.ascending))
+  y.domain(data.map(d => +d.pct_recyc_2019).sort(d3.descending))
 
   data.forEach(d => {
     d['2019 rates'] = +d.pct_recyc_2019
@@ -104,7 +105,7 @@ function ready(data) {
   svg
     .append('text')
     .attr('class', 'key-text')
-    .text('Change from 2009 to 2019')
+    .text('2010/2019 recycling rates')
     .style('font-size', '16px')
 
   const g = svg
@@ -115,19 +116,20 @@ function ready(data) {
     .data(data)
     .join('g')
     .attr('class', 'changes-group')
-    .attr('transform', (d, i) => `translate(0,${y(d.pct_recyc_2019)})`)
+    .attr('transform', d => `translate(0,${y(+d.pct_recyc_2019)})`)
 
   g.append('line')
     .attr('class', 'changes-line changes-group')
     .attr('stroke', d => colorScale(d.BOROUGH))
     .attr('stroke-width', '6px')
+    .attr('opacity', 0.6)
     .attr('x1', d => x(d3.min(keys, k => +d[k])))
     .attr('x2', d => x(d3.max(keys, k => +d[k])))
 
   g.append('circle')
     .attr('class', 'changes-group changes-circle')
     .attr('cx', d => x(d.pct_recyc_2019))
-    .attr('r', 5)
+    .attr('r', 3)
     .attr('fill', d => colorScale(d.BOROUGH))
 
   g.append('text')
@@ -156,7 +158,7 @@ function ready(data) {
     g.transition()
       .delay((d, i) => i * 1)
       .duration(500)
-      .attr('transform', d => `translate(0,${y(d[this.value]) + margin.top})`)
+      .attr('transform', d => `translate(0,${y(d[this.value])})`)
   })
 
   function renderChanges() {
@@ -171,7 +173,7 @@ function ready(data) {
     const newHeight = svgHeight - margin.top - margin.bottom
 
     x.range([0, newWidth])
-    y.range([newHeight, 0])
+    y.rangeRound([margin.top, newHeight - margin.bottom])
 
     svg
       .select('.key-circle')
@@ -190,7 +192,15 @@ function ready(data) {
       .attr('y', -10)
     // .style('alignment-baseline', 'middle')
 
-    svg.select('.x-axis').call(xAxis)
+    svg
+      .selectAll('.axis-x-text')
+      .call(xAxis)
+      .style('color', '#555')
+      .style('font-family', 'Montserrat')
+      .style('font-size', '16px')
+      .style('stroke-dasharray', '3, 3')
+
+    svg.selectAll('line.axis-x-text').attr('opacity', 0.1)
 
     svg
       .selectAll('.changes-line')
