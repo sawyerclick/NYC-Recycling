@@ -17,6 +17,11 @@ img {
   max-width: 100%;
 }
 
+code {
+  background-color: #eeeeee;
+  padding: 3px;
+}
+
 .serif {
   font-family: "Lora", serif;
 }

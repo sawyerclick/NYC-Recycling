@@ -49,6 +49,7 @@
     "d3-svg-legend": "^2.25.6",
     "d3-timer": "^1.0.10",
     "d3-tip": "^0.9.1",
+    "intersection-observer": "^0.7.0",
     "mapbox-gl": "^1.8.1"
   }
 }

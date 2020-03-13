@@ -1,4 +1,15 @@
 import * as d3 from 'd3'
+import 'intersection-observer'
+
+// Set things up for IntersectionObserver
+let boxElement
+window.addEventListener(
+  'load',
+  event => {
+    boxElement = document.querySelector('#year-recycled-waste')
+  },
+  false
+)
 
 const margin = { top: 0, left: 20, right: 20, bottom: 20 }
 const height = 75 - margin.top - margin.bottom
@@ -63,60 +74,6 @@ function ready(datapoints) {
     .key(d => d.year)
     .entries(newData)
 
-  /// animation
-  let i = 0
-
-  function drawBars(graphic, data) {
-    let barsG = graphic.select('.bars')
-    if (barsG.empty()) {
-      barsG = graphic.append('g').attr('class', 'bars')
-    }
-
-    // console.log(data)
-
-    const bars = barsG.selectAll('.bar').data(data, yAccessor, i)
-    bars.exit().remove()
-    bars
-      .enter()
-      .append('rect')
-      .attr('class', 'bar')
-      .merge(bars)
-      .attr('y', d => y(d.type))
-      // .attr('y', height / 2)
-      .attr('width', function(d) {
-        if (i !== 0 && d.type === 'Waste') {
-          return x(nested[i - 1].values[0].mt)
-        } else if (i !== 0 && d.type === 'Recycled') {
-          return x(nested[i - 1].values[1].mt)
-        }
-      })
-      .attr('height', y.bandwidth())
-      .attr('x', x(0))
-      .attr('fill', d => colorScale(d.type))
-      .transition(t)
-      .attr('width', d => {
-        return x(d.mt)
-      })
-      .delay(delay)
-  }
-
-  const interval = d3.interval(() => {
-    i = i + 1
-    if (i === nested.length - 1) {
-      interval.stop()
-    }
-
-    const selectedData = nested[i].values
-
-    d3.select('.year').text(i + 2009)
-
-    drawBars(svg, selectedData, i)
-  }, 750)
-
-  d3.selectAll('#waste').on('stepin', function() {
-    console.log('hi')
-  })
-
   svg
     .append('g')
     .attr('class', 'axis axis--x')
@@ -128,6 +85,69 @@ function ready(datapoints) {
     .style('color', '#555')
     .style('font-family', 'Montserrat')
     .style('font-size', '12px')
+
+  function handleIntersect(entries, observer) {
+    /// animation
+    let i = 0
+
+    function drawBars(graphic, data) {
+      let barsG = graphic.select('.bars')
+      if (barsG.empty()) {
+        barsG = graphic.append('g').attr('class', 'bars')
+      }
+
+      const bars = barsG.selectAll('.bar').data(data, yAccessor, i)
+      bars.exit().remove()
+      bars
+        .enter()
+        .append('rect')
+        .attr('class', 'bar')
+        .merge(bars)
+        .attr('y', d => y(d.type))
+        // .attr('y', height / 2)
+        .attr('width', function(d) {
+          if (i !== 0 && d.type === 'Waste') {
+            return x(nested[i - 1].values[0].mt)
+          } else if (i !== 0 && d.type === 'Recycled') {
+            return x(nested[i - 1].values[1].mt)
+          }
+        })
+        .attr('height', y.bandwidth())
+        .attr('x', x(0))
+        .attr('fill', d => colorScale(d.type))
+        .transition(t)
+        .attr('width', d => {
+          return x(d.mt)
+        })
+        .delay(delay)
+    }
+
+    // drawBars(svg, nested[0].values)
+
+    entries.forEach(entry => {
+      if (entry.intersectionRatio > 0) {
+        // console.log('crossed')
+
+        const interval = d3.interval(() => {
+          if (i === nested.length - 1) {
+            interval.stop()
+          }
+          const selectedData = nested[i].values
+          d3.select('.year').text(i + 2009)
+          drawBars(svg, selectedData, i)
+          i = i + 1
+        }, 600)
+      }
+    })
+  }
+  const options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.5
+  }
+
+  const observer = new IntersectionObserver(handleIntersect, options)
+  observer.observe(boxElement)
 
   function render() {
     const svgContainer = svg.node().closest('div')
@@ -148,7 +168,6 @@ function ready(datapoints) {
     // /// if we do it in render then it starts out resized
     // /// many thanks to https://bl.ocks.org/deciob/ffd5c65629e43449246cb80a0af280c7
 
-    drawBars(svg, nested[0].values)
     // drawXAxis(svg, nested[0].values)
 
     // Update things you draw
