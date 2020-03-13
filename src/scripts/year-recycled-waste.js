@@ -86,69 +86,6 @@ function ready(datapoints) {
     .style('font-family', 'Montserrat')
     .style('font-size', '12px')
 
-  function handleIntersect(entries, observer) {
-    /// animation
-    let i = 0
-
-    function drawBars(graphic, data) {
-      let barsG = graphic.select('.bars')
-      if (barsG.empty()) {
-        barsG = graphic.append('g').attr('class', 'bars')
-      }
-
-      const bars = barsG.selectAll('.bar').data(data, yAccessor, i)
-      bars.exit().remove()
-      bars
-        .enter()
-        .append('rect')
-        .attr('class', 'bar')
-        .merge(bars)
-        .attr('y', d => y(d.type))
-        // .attr('y', height / 2)
-        .attr('width', function(d) {
-          if (i !== 0 && d.type === 'Waste') {
-            return x(nested[i - 1].values[0].mt)
-          } else if (i !== 0 && d.type === 'Recycled') {
-            return x(nested[i - 1].values[1].mt)
-          }
-        })
-        .attr('height', y.bandwidth())
-        .attr('x', x(0))
-        .attr('fill', d => colorScale(d.type))
-        .transition(t)
-        .attr('width', d => {
-          return x(d.mt)
-        })
-        .delay(delay)
-    }
-
-    // drawBars(svg, nested[0].values)
-
-    entries.forEach(entry => {
-      if (entry.intersectionRatio > 0) {
-        // console.log('crossed')
-
-        const interval = d3.interval(() => {
-          if (i === nested.length - 1) {
-            interval.stop()
-          }
-          const selectedData = nested[i].values
-          d3.select('.year').text(i + 2009)
-          drawBars(svg, selectedData, i)
-          i = i + 1
-        }, 600)
-      }
-    })
-  }
-  const options = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.5
-  }
-
-  const observer = new IntersectionObserver(handleIntersect, options)
-  observer.observe(boxElement)
-
   function render() {
     const svgContainer = svg.node().closest('div')
     const svgWidth = svgContainer.offsetWidth
@@ -164,6 +101,69 @@ function ready(datapoints) {
     x.range([0, newWidth])
     y.range([newHeight, 0])
 
+    function handleIntersect(entries, observer) {
+      /// animation
+      let i = 0
+
+      function drawBars(graphic, data) {
+        let barsG = graphic.select('.bars')
+        if (barsG.empty()) {
+          barsG = graphic.append('g').attr('class', 'bars')
+        }
+
+        const bars = barsG.selectAll('.bar').data(data, yAccessor, i)
+        bars.exit().remove()
+        bars
+          .enter()
+          .append('rect')
+          .attr('class', 'bar')
+          .merge(bars)
+          .attr('y', d => y(d.type))
+          // .attr('y', height / 2)
+          .attr('width', function(d) {
+            if (i !== 0 && d.type === 'Waste') {
+              return x(nested[i - 1].values[0].mt)
+            } else if (i !== 0 && d.type === 'Recycled') {
+              return x(nested[i - 1].values[1].mt)
+            }
+          })
+          .attr('height', y.bandwidth())
+          .attr('x', x(0))
+          .attr('fill', d => colorScale(d.type))
+          .transition(t)
+          .attr('width', d => {
+            return x(d.mt)
+          })
+          .delay(delay)
+      }
+
+      // drawBars(svg, nested[0].values)
+
+      entries.forEach(entry => {
+        if (entry.intersectionRatio > 0) {
+          // console.log('crossed')
+
+          const interval = d3.interval(() => {
+            if (i === nested.length - 1) {
+              interval.stop()
+            }
+            const selectedData = nested[i].values
+            d3.select('.year').text(i + 2009)
+            drawBars(svg, selectedData, i)
+            i = i + 1
+          }, 600)
+        }
+      })
+    }
+    const options = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5
+    }
+
+    const observer = new IntersectionObserver(handleIntersect, options)
+    observer.observe(boxElement)
+
     // /// kick off the animation
     // /// if we do it in render then it starts out resized
     // /// many thanks to https://bl.ocks.org/deciob/ffd5c65629e43449246cb80a0af280c7
@@ -173,7 +173,6 @@ function ready(datapoints) {
     // Update things you draw
     svg
       .selectAll('.bar')
-      .transition()
       .attr('x', x(0))
       .attr('y', d => y(d.type))
       .attr('height', y.bandwidth())
