@@ -80,7 +80,7 @@ code {
   position: absolute;
 }
 
-.header > *{
+.header > * {
   z-index: 1;
 }
 
@@ -273,7 +273,7 @@ p.note {
 }
 
 .tick line {
-  opacity: .1
+  opacity: 0.1;
 }
 
 .changes-group:hover {
@@ -529,12 +529,11 @@ p.caption {
   font-size: 26px;
 }
 
-.arrow
-{
+.arrow {
   position: absolute;
   bottom: 1rem;
   left: 50%;
-  margin-left:-20px;
+  margin-left: -20px;
   width: 40px;
   height: 40px;
   cursor: pointer;
@@ -552,7 +551,11 @@ p.caption {
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
@@ -587,7 +590,6 @@ p.caption {
     margin-right: 15px;
     padding: 3px;
   }
-
 }
 
 @media (max-width: 700px) {
